@@ -1,0 +1,1001 @@
+application_id,purpose,duration,amount,age,status,credit_history,bad,score,pd
+1,domestic appliances,6,1169,67,... < 100 DM,critical account/other credits existing,0,551,0.0987
+2,domestic appliances,48,5951,22,0 <= ... < 200 DM,existing credits paid back duly till now,1,495,0.4312
+3,retraining,12,2096,49,no checking account,critical account/other credits existing,0,538,0.1463
+4,radio/television,42,7882,45,... < 100 DM,existing credits paid back duly till now,0,470,0.646
+5,car (new),24,4870,53,... < 100 DM,delay in paying off in the past,1,459,0.7245
+6,retraining,36,9055,35,no checking account,existing credits paid back duly till now,0,517,0.2613
+7,radio/television,24,2835,53,no checking account,existing credits paid back duly till now,0,553,0.092
+8,car (used),36,6948,35,0 <= ... < 200 DM,existing credits paid back duly till now,0,494,0.4413
+9,domestic appliances,12,3059,61,no checking account,existing credits paid back duly till now,0,609,0.0144
+10,car (new),30,5234,28,0 <= ... < 200 DM,critical account/other credits existing,1,485,0.5226
+11,car (new),12,1295,25,0 <= ... < 200 DM,existing credits paid back duly till now,1,496,0.4211
+12,others,48,4308,24,... < 100 DM,existing credits paid back duly till now,1,454,0.7606
+13,domestic appliances,12,1567,22,0 <= ... < 200 DM,existing credits paid back duly till now,0,530,0.1861
+14,car (new),24,1199,60,... < 100 DM,critical account/other credits existing,1,493,0.4473
+15,car (new),15,1403,28,... < 100 DM,existing credits paid back duly till now,0,493,0.452
+16,domestic appliances,24,1282,32,... < 100 DM,existing credits paid back duly till now,1,508,0.3236
+17,domestic appliances,24,2424,53,no checking account,critical account/other credits existing,0,587,0.0302
+18,others,30,8072,25,... < 100 DM,no credits taken/all credits paid back duly,0,450,0.7854
+19,car (used),24,12579,44,0 <= ... < 200 DM,existing credits paid back duly till now,1,495,0.4307
+20,domestic appliances,24,3430,31,no checking account,existing credits paid back duly till now,0,564,0.065
+21,car (new),9,2134,48,no checking account,critical account/other credits existing,0,553,0.0913
+22,domestic appliances,6,2647,44,... < 100 DM,existing credits paid back duly till now,0,530,0.1833
+23,car (new),10,2241,48,... < 100 DM,critical account/other credits existing,0,498,0.4059
+24,car (used),12,1804,44,0 <= ... < 200 DM,critical account/other credits existing,0,533,0.1681
+25,radio/television,10,2069,26,no checking account,critical account/other credits existing,0,576,0.0438
+26,radio/television,6,1374,36,... < 100 DM,existing credits paid back duly till now,0,491,0.4641
+27,domestic appliances,6,426,39,no checking account,no credits taken/all credits paid back duly,0,531,0.1783
+28,domestic appliances,12,409,42,... >= 200 DM / salary for at least 1 year,all credits at this bank paid back duly,0,539,0.1432
+29,domestic appliances,7,2415,34,0 <= ... < 200 DM,existing credits paid back duly till now,0,524,0.2153
+30,others,60,6836,63,... < 100 DM,delay in paying off in the past,1,462,0.7032
+31,others,18,1913,36,0 <= ... < 200 DM,existing credits paid back duly till now,0,493,0.4499
+32,radio/television,24,4020,27,... < 100 DM,existing credits paid back duly till now,0,469,0.6527
+33,car (new),18,5866,30,0 <= ... < 200 DM,existing credits paid back duly till now,0,485,0.5205
+34,others,12,1264,57,no checking account,critical account/other credits existing,0,565,0.0637
+35,radio/television,12,1474,33,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,513,0.2897
+36,domestic appliances,45,4746,25,0 <= ... < 200 DM,critical account/other credits existing,1,495,0.43
+37,retraining,48,6110,31,no checking account,critical account/other credits existing,0,480,0.5599
+38,domestic appliances,18,2100,37,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,1,532,0.1767
+39,repairs,10,1225,37,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,505,0.3511
+40,domestic appliances,9,458,24,0 <= ... < 200 DM,existing credits paid back duly till now,0,519,0.2461
+41,domestic appliances,30,2333,30,no checking account,existing credits paid back duly till now,0,559,0.0766
+42,domestic appliances,12,1158,26,0 <= ... < 200 DM,existing credits paid back duly till now,0,539,0.141
+43,education,18,6204,44,0 <= ... < 200 DM,delay in paying off in the past,0,491,0.4654
+44,car (used),30,6187,24,... < 100 DM,critical account/other credits existing,0,531,0.1779
+45,car (used),48,6143,58,... < 100 DM,critical account/other credits existing,1,483,0.5391
+46,car (new),11,1393,35,no checking account,critical account/other credits existing,0,538,0.1468
+47,domestic appliances,36,2299,39,no checking account,existing credits paid back duly till now,0,560,0.0749
+48,car (used),6,1352,23,... < 100 DM,existing credits paid back duly till now,0,539,0.1435
+49,car (new),11,7228,39,no checking account,critical account/other credits existing,0,537,0.1524
+50,domestic appliances,12,2073,28,no checking account,existing credits paid back duly till now,0,552,0.0954
+51,radio/television,24,2333,29,0 <= ... < 200 DM,delay in paying off in the past,0,506,0.3426
+52,car (used),27,5965,30,0 <= ... < 200 DM,delay in paying off in the past,0,525,0.2124
+53,domestic appliances,12,1262,25,no checking account,existing credits paid back duly till now,0,563,0.0674
+54,car (used),18,3378,31,no checking account,existing credits paid back duly till now,0,580,0.0385
+55,car (new),36,2225,57,0 <= ... < 200 DM,delay in paying off in the past,1,462,0.7039
+56,car (new),6,783,26,no checking account,all credits at this bank paid back duly,0,559,0.0768
+57,domestic appliances,12,6468,52,0 <= ... < 200 DM,existing credits paid back duly till now,1,538,0.1447
+58,domestic appliances,36,9566,31,no checking account,critical account/other credits existing,0,534,0.1623
+59,car (new),18,1961,23,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,521,0.2377
+60,radio/television,36,6229,23,... < 100 DM,critical account/other credits existing,1,449,0.7865
+61,others,9,1391,27,0 <= ... < 200 DM,existing credits paid back duly till now,0,504,0.36
+62,domestic appliances,15,1537,50,0 <= ... < 200 DM,critical account/other credits existing,0,562,0.0689
+63,others,36,1953,61,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,443,0.8194
+64,others,48,14421,25,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,445,0.8096
+65,domestic appliances,24,3181,26,no checking account,existing credits paid back duly till now,0,533,0.1698
+66,education,27,5190,48,no checking account,existing credits paid back duly till now,0,546,0.1144
+67,domestic appliances,12,2171,29,no checking account,existing credits paid back duly till now,0,544,0.1237
+68,car (new),12,1007,22,0 <= ... < 200 DM,existing credits paid back duly till now,0,517,0.2628
+69,retraining,36,1819,37,no checking account,existing credits paid back duly till now,1,482,0.5445
+70,domestic appliances,36,2394,25,no checking account,existing credits paid back duly till now,0,538,0.1447
+71,car (used),36,8133,30,no checking account,existing credits paid back duly till now,0,515,0.2782
+72,domestic appliances,7,730,46,no checking account,critical account/other credits existing,0,580,0.0384
+73,furniture/equipment,8,1164,51,... < 100 DM,critical account/other credits existing,0,497,0.4164
+74,others,42,5954,41,0 <= ... < 200 DM,critical account/other credits existing,0,485,0.5217
+75,retraining,36,1977,40,... < 100 DM,existing credits paid back duly till now,1,471,0.6384
+76,car (used),12,1526,66,... < 100 DM,critical account/other credits existing,0,533,0.1689
+77,domestic appliances,42,3965,34,... < 100 DM,existing credits paid back duly till now,1,473,0.6182
+78,domestic appliances,11,4771,51,0 <= ... < 200 DM,delay in paying off in the past,0,519,0.2497
+79,car (used),54,9436,39,no checking account,no credits taken/all credits paid back duly,0,540,0.1365
+80,radio/television,30,3832,22,0 <= ... < 200 DM,existing credits paid back duly till now,0,487,0.4985
+81,domestic appliances,24,5943,44,no checking account,existing credits paid back duly till now,1,551,0.1001
+82,domestic appliances,15,1213,47,no checking account,existing credits paid back duly till now,0,575,0.0449
+83,others,18,1568,24,no checking account,existing credits paid back duly till now,0,518,0.2574
+84,furniture/equipment,24,1755,58,... < 100 DM,existing credits paid back duly till now,0,499,0.3953
+85,domestic appliances,10,2315,52,... < 100 DM,existing credits paid back duly till now,0,526,0.2078
+86,others,12,1412,29,no checking account,critical account/other credits existing,0,564,0.0659
+87,radio/television,18,1295,27,0 <= ... < 200 DM,critical account/other credits existing,0,510,0.3113
+88,retraining,36,12612,47,0 <= ... < 200 DM,existing credits paid back duly till now,1,457,0.7418
+89,car (new),18,2249,30,... < 100 DM,existing credits paid back duly till now,0,476,0.5927
+90,education,12,1108,28,... < 100 DM,no credits taken/all credits paid back duly,1,489,0.4818
+91,domestic appliances,12,618,56,no checking account,critical account/other credits existing,0,573,0.0487
+92,car (used),12,1409,54,... < 100 DM,critical account/other credits existing,0,547,0.1113
+93,domestic appliances,12,797,33,no checking account,critical account/other credits existing,1,584,0.0339
+94,radio/television,24,3617,20,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,523,0.223
+95,car (new),12,1318,54,0 <= ... < 200 DM,existing credits paid back duly till now,0,530,0.1846
+96,others,54,15945,58,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,419,0.9128
+97,retraining,12,2012,61,no checking account,critical account/other credits existing,0,566,0.0613
+98,others,18,2622,34,0 <= ... < 200 DM,existing credits paid back duly till now,0,487,0.5015
+99,domestic appliances,36,2337,36,0 <= ... < 200 DM,critical account/other credits existing,0,516,0.2671
+100,car (used),20,7057,36,0 <= ... < 200 DM,delay in paying off in the past,0,539,0.1416
+101,car (new),24,1469,41,no checking account,existing credits paid back duly till now,0,521,0.2336
+102,domestic appliances,36,2323,24,0 <= ... < 200 DM,existing credits paid back duly till now,0,493,0.4511
+103,domestic appliances,6,932,24,no checking account,delay in paying off in the past,0,569,0.0549
+104,radio/television,9,1919,35,0 <= ... < 200 DM,critical account/other credits existing,0,521,0.2355
+105,car (used),12,2445,26,no checking account,existing credits paid back duly till now,0,568,0.0563
+106,furniture/equipment,24,11938,39,0 <= ... < 200 DM,critical account/other credits existing,1,502,0.3742
+107,car (new),18,6458,39,no checking account,all credits at this bank paid back duly,1,502,0.3758
+108,car (new),12,6078,32,0 <= ... < 200 DM,existing credits paid back duly till now,0,500,0.3896
+109,radio/television,24,7721,30,... < 100 DM,existing credits paid back duly till now,0,495,0.4299
+110,others,14,1410,35,0 <= ... < 200 DM,existing credits paid back duly till now,0,543,0.1278
+111,others,6,1449,31,0 <= ... < 200 DM,delay in paying off in the past,0,500,0.3927
+112,retraining,15,392,23,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,491,0.4638
+113,car (new),18,6260,28,0 <= ... < 200 DM,existing credits paid back duly till now,0,482,0.547
+114,car (new),36,7855,25,no checking account,critical account/other credits existing,1,514,0.2809
+115,domestic appliances,12,1680,35,... < 100 DM,existing credits paid back duly till now,0,544,0.1234
+116,domestic appliances,48,3578,47,no checking account,critical account/other credits existing,0,574,0.0465
+117,domestic appliances,42,7174,30,... < 100 DM,existing credits paid back duly till now,1,507,0.3316
+118,radio/television,10,2132,27,... < 100 DM,critical account/other credits existing,0,507,0.3364
+119,radio/television,33,4281,23,... < 100 DM,critical account/other credits existing,1,520,0.2419
+120,car (new),12,2366,36,0 <= ... < 200 DM,critical account/other credits existing,0,553,0.0935
+121,domestic appliances,21,1835,25,... < 100 DM,existing credits paid back duly till now,1,505,0.3476
+122,car (used),24,3868,41,no checking account,critical account/other credits existing,0,557,0.0815
+123,radio/television,12,1768,24,no checking account,existing credits paid back duly till now,0,538,0.1454
+124,car (new),10,781,63,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,515,0.275
+125,radio/television,18,1924,27,0 <= ... < 200 DM,existing credits paid back duly till now,1,515,0.2755
+126,car (new),12,2121,30,... < 100 DM,critical account/other credits existing,0,509,0.3164
+127,domestic appliances,12,701,40,... < 100 DM,existing credits paid back duly till now,0,507,0.3343
+128,education,12,639,30,0 <= ... < 200 DM,existing credits paid back duly till now,1,497,0.4141
+129,car (used),12,1860,34,0 <= ... < 200 DM,critical account/other credits existing,0,557,0.0825
+130,car (new),12,3499,29,... < 100 DM,critical account/other credits existing,1,509,0.3177
+131,car (new),48,8487,24,0 <= ... < 200 DM,existing credits paid back duly till now,0,494,0.4365
+132,retraining,36,6887,29,... < 100 DM,delay in paying off in the past,1,433,0.8668
+133,radio/television,15,2708,27,no checking account,existing credits paid back duly till now,0,540,0.1392
+134,radio/television,18,1984,47,no checking account,existing credits paid back duly till now,0,512,0.2987
+135,domestic appliances,60,10144,21,no checking account,existing credits paid back duly till now,0,543,0.1252
+136,domestic appliances,12,1240,38,no checking account,critical account/other credits existing,0,602,0.0185
+137,car (used),27,8613,27,no checking account,delay in paying off in the past,0,576,0.0434
+138,domestic appliances,12,766,66,0 <= ... < 200 DM,existing credits paid back duly till now,1,548,0.1084
+139,domestic appliances,15,2728,35,0 <= ... < 200 DM,critical account/other credits existing,0,558,0.0802
+140,domestic appliances,12,1881,44,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,545,0.1168
+141,car (new),6,709,27,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,556,0.0853
+142,domestic appliances,36,4795,30,0 <= ... < 200 DM,existing credits paid back duly till now,0,462,0.7055
+143,domestic appliances,27,3416,27,... < 100 DM,existing credits paid back duly till now,0,498,0.4048
+144,radio/television,18,2462,22,... < 100 DM,existing credits paid back duly till now,1,498,0.4078
+145,radio/television,21,2288,23,no checking account,critical account/other credits existing,0,530,0.1844
+146,others,48,3566,30,0 <= ... < 200 DM,all credits at this bank paid back duly,0,453,0.7679
+147,car (new),6,860,39,... < 100 DM,critical account/other credits existing,0,514,0.2843
+148,car (new),12,682,51,no checking account,critical account/other credits existing,0,555,0.0858
+149,radio/television,36,5371,28,... < 100 DM,critical account/other credits existing,0,473,0.6193
+150,domestic appliances,18,1582,46,no checking account,critical account/other credits existing,0,595,0.0234
+151,domestic appliances,6,1346,42,no checking account,existing credits paid back duly till now,0,550,0.1003
+152,domestic appliances,10,1924,38,no checking account,existing credits paid back duly till now,0,554,0.0888
+153,domestic appliances,36,5848,24,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,503,0.3655
+154,car (used),24,7758,29,0 <= ... < 200 DM,critical account/other credits existing,0,537,0.1515
+155,others,24,6967,36,0 <= ... < 200 DM,delay in paying off in the past,0,475,0.5999
+156,radio/television,12,1282,20,... < 100 DM,existing credits paid back duly till now,1,503,0.3675
+157,education,9,1288,48,... < 100 DM,critical account/other credits existing,0,514,0.2811
+158,business,12,339,45,... < 100 DM,all credits at this bank paid back duly,0,466,0.6785
+159,car (new),24,3512,38,0 <= ... < 200 DM,existing credits paid back duly till now,0,500,0.3875
+160,domestic appliances,6,1898,34,no checking account,critical account/other credits existing,0,604,0.0172
+161,domestic appliances,24,2872,36,no checking account,critical account/other credits existing,0,574,0.0463
+162,car (new),18,1055,30,no checking account,critical account/other credits existing,0,524,0.2194
+163,repairs,15,1262,36,no checking account,existing credits paid back duly till now,0,562,0.0688
+164,car (new),10,7308,70,0 <= ... < 200 DM,existing credits paid back duly till now,0,474,0.6113
+165,car (new),36,909,36,no checking account,existing credits paid back duly till now,0,534,0.1669
+166,radio/television,6,2978,32,no checking account,existing credits paid back duly till now,0,561,0.0711
+167,radio/television,18,1131,33,... < 100 DM,existing credits paid back duly till now,1,473,0.6164
+168,radio/television,11,1577,20,0 <= ... < 200 DM,existing credits paid back duly till now,0,520,0.24
+169,radio/television,24,3972,25,no checking account,existing credits paid back duly till now,0,535,0.1608
+170,others,24,1935,31,0 <= ... < 200 DM,critical account/other credits existing,1,521,0.2345
+171,car (new),15,950,33,... < 100 DM,no credits taken/all credits paid back duly,1,462,0.7056
+172,radio/television,12,763,26,no checking account,existing credits paid back duly till now,0,534,0.1664
+173,radio/television,24,2064,34,0 <= ... < 200 DM,delay in paying off in the past,1,500,0.3906
+174,domestic appliances,8,1414,33,0 <= ... < 200 DM,existing credits paid back duly till now,0,521,0.2389
+175,retraining,21,3414,26,... < 100 DM,delay in paying off in the past,1,468,0.6612
+176,car (used),30,7485,53,no checking account,all credits at this bank paid back duly,1,525,0.2106
+177,radio/television,12,2577,42,... < 100 DM,existing credits paid back duly till now,0,502,0.3767
+178,domestic appliances,6,338,52,... < 100 DM,critical account/other credits existing,0,543,0.1253
+179,domestic appliances,12,1963,31,no checking account,existing credits paid back duly till now,0,555,0.0867
+180,car (new),21,571,65,... < 100 DM,critical account/other credits existing,0,497,0.4139
+181,others,36,9572,28,no checking account,delay in paying off in the past,1,501,0.3854
+182,others,36,4455,30,0 <= ... < 200 DM,delay in paying off in the past,1,482,0.5401
+183,car (new),21,1647,40,... < 100 DM,all credits at this bank paid back duly,1,478,0.5747
+184,radio/television,24,3777,50,no checking account,critical account/other credits existing,0,587,0.03
+185,car (new),18,884,36,0 <= ... < 200 DM,critical account/other credits existing,1,490,0.4734
+186,domestic appliances,15,1360,31,no checking account,critical account/other credits existing,0,573,0.0493
+187,car (used),9,5129,74,0 <= ... < 200 DM,all credits at this bank paid back duly,1,488,0.4915
+188,car (new),16,1175,68,0 <= ... < 200 DM,critical account/other credits existing,0,496,0.4225
+189,domestic appliances,12,674,20,... < 100 DM,existing credits paid back duly till now,1,519,0.2467
+190,radio/television,18,3244,33,0 <= ... < 200 DM,no credits taken/all credits paid back duly,0,467,0.6659
+191,others,24,4591,54,no checking account,existing credits paid back duly till now,1,570,0.0535
+192,others,48,3844,34,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,442,0.8287
+193,others,27,3915,36,0 <= ... < 200 DM,existing credits paid back duly till now,1,502,0.3767
+194,domestic appliances,6,2108,29,no checking account,existing credits paid back duly till now,0,568,0.0577
+195,domestic appliances,45,3031,21,0 <= ... < 200 DM,existing credits paid back duly till now,1,514,0.2801
+196,retraining,9,1501,34,0 <= ... < 200 DM,critical account/other credits existing,1,534,0.1664
+197,domestic appliances,6,1382,28,no checking account,critical account/other credits existing,0,575,0.0447
+198,radio/television,12,951,27,0 <= ... < 200 DM,existing credits paid back duly till now,1,481,0.551
+199,car (used),24,2760,36,0 <= ... < 200 DM,existing credits paid back duly till now,0,511,0.301
+200,radio/television,18,4297,40,0 <= ... < 200 DM,delay in paying off in the past,1,495,0.4281
+201,retraining,9,936,52,no checking account,critical account/other credits existing,0,581,0.0374
+202,car (new),12,1168,27,... < 100 DM,existing credits paid back duly till now,0,486,0.5131
+203,others,27,5117,26,no checking account,delay in paying off in the past,0,525,0.2128
+204,business,12,902,21,... < 100 DM,existing credits paid back duly till now,1,536,0.1539
+205,car (new),12,1495,38,no checking account,critical account/other credits existing,0,561,0.0726
+206,car (used),30,10623,38,... < 100 DM,critical account/other credits existing,0,503,0.3639
+207,radio/television,12,1935,43,no checking account,critical account/other credits existing,0,576,0.0435
+208,repairs,12,1424,26,0 <= ... < 200 DM,critical account/other credits existing,0,515,0.2768
+209,others,24,6568,21,... < 100 DM,existing credits paid back duly till now,0,468,0.6572
+210,car (used),12,1413,55,no checking account,existing credits paid back duly till now,0,609,0.0143
+211,domestic appliances,9,3074,33,no checking account,critical account/other credits existing,0,595,0.0233
+212,domestic appliances,36,3835,45,no checking account,existing credits paid back duly till now,0,569,0.0546
+213,others,27,5293,50,... < 100 DM,no credits taken/all credits paid back duly,1,440,0.8372
+214,others,30,1908,66,... >= 200 DM / salary for at least 1 year,delay in paying off in the past,1,522,0.2309
+215,domestic appliances,36,3342,51,no checking account,critical account/other credits existing,0,562,0.0686
+216,business,6,932,39,0 <= ... < 200 DM,critical account/other credits existing,0,561,0.0728
+217,others,18,3104,31,... < 100 DM,no credits taken/all credits paid back duly,0,460,0.716
+218,domestic appliances,36,3913,23,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,517,0.2616
+219,radio/television,24,3021,24,... < 100 DM,existing credits paid back duly till now,0,498,0.4107
+220,car (new),10,1364,64,no checking account,existing credits paid back duly till now,0,550,0.1022
+221,domestic appliances,12,625,26,0 <= ... < 200 DM,existing credits paid back duly till now,0,501,0.3848
+222,retraining,12,1200,23,... < 100 DM,existing credits paid back duly till now,0,476,0.5988
+223,domestic appliances,12,707,30,no checking account,existing credits paid back duly till now,0,538,0.147
+224,others,24,2978,32,no checking account,delay in paying off in the past,0,543,0.1264
+225,car (used),15,4657,30,no checking account,existing credits paid back duly till now,0,576,0.0437
+226,education,36,2613,27,no checking account,no credits taken/all credits paid back duly,0,479,0.5736
+227,domestic appliances,48,10961,27,0 <= ... < 200 DM,existing credits paid back duly till now,1,509,0.3168
+228,radio/television,12,7865,53,... < 100 DM,existing credits paid back duly till now,1,486,0.5069
+229,domestic appliances,9,1478,22,no checking account,existing credits paid back duly till now,1,565,0.064
+230,radio/television,24,3149,22,... < 100 DM,existing credits paid back duly till now,0,454,0.7563
+231,domestic appliances,36,4210,26,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,1,517,0.2639
+232,car (new),9,2507,51,no checking account,existing credits paid back duly till now,0,567,0.0585
+233,domestic appliances,12,2141,35,no checking account,existing credits paid back duly till now,0,567,0.0594
+234,domestic appliances,18,866,25,0 <= ... < 200 DM,existing credits paid back duly till now,0,506,0.3406
+235,domestic appliances,4,1544,42,no checking account,critical account/other credits existing,0,593,0.0248
+236,domestic appliances,24,1823,30,... < 100 DM,existing credits paid back duly till now,1,485,0.5219
+237,car (new),6,14555,23,0 <= ... < 200 DM,existing credits paid back duly till now,1,509,0.319
+238,others,21,2767,61,0 <= ... < 200 DM,existing credits paid back duly till now,1,491,0.4681
+239,domestic appliances,12,1291,35,no checking account,critical account/other credits existing,0,573,0.0479
+240,domestic appliances,30,2522,39,... < 100 DM,existing credits paid back duly till now,0,524,0.215
+241,car (new),24,915,29,... < 100 DM,existing credits paid back duly till now,1,492,0.4573
+242,domestic appliances,6,1595,51,no checking account,existing credits paid back duly till now,0,571,0.0523
+243,car (used),48,4605,24,... < 100 DM,no credits taken/all credits paid back duly,1,457,0.7427
+244,others,12,1185,27,no checking account,critical account/other credits existing,0,566,0.0607
+245,business,12,3447,35,no checking account,all credits at this bank paid back duly,0,567,0.059
+246,others,24,1258,25,no checking account,existing credits paid back duly till now,0,540,0.1388
+247,domestic appliances,12,717,52,no checking account,critical account/other credits existing,0,575,0.0454
+248,car (new),6,1204,35,no checking account,no credits taken/all credits paid back duly,0,487,0.4983
+249,radio/television,24,1925,26,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,513,0.2869
+250,domestic appliances,18,433,22,no checking account,existing credits paid back duly till now,1,534,0.1659
+251,car (new),6,666,39,... < 100 DM,critical account/other credits existing,0,545,0.1203
+252,radio/television,12,2251,46,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,543,0.125
+253,car (new),30,2150,24,0 <= ... < 200 DM,existing credits paid back duly till now,1,501,0.3798
+254,radio/television,24,4151,35,no checking account,delay in paying off in the past,0,537,0.1513
+255,radio/television,9,2030,24,0 <= ... < 200 DM,existing credits paid back duly till now,0,547,0.1118
+256,domestic appliances,60,7418,27,0 <= ... < 200 DM,delay in paying off in the past,0,507,0.3348
+257,domestic appliances,24,2684,35,no checking account,critical account/other credits existing,0,560,0.0747
+258,domestic appliances,12,2149,29,... < 100 DM,all credits at this bank paid back duly,1,476,0.5986
+259,car (used),15,3812,23,no checking account,existing credits paid back duly till now,0,577,0.0418
+260,domestic appliances,11,1154,57,no checking account,critical account/other credits existing,0,567,0.0599
+261,radio/television,12,1657,27,... < 100 DM,existing credits paid back duly till now,0,507,0.3355
+262,domestic appliances,24,1603,55,... < 100 DM,existing credits paid back duly till now,0,498,0.4057
+263,car (new),18,5302,36,... < 100 DM,critical account/other credits existing,0,484,0.5265
+264,retraining,12,2748,57,no checking account,critical account/other credits existing,0,546,0.115
+265,car (new),10,1231,32,no checking account,critical account/other credits existing,0,549,0.1057
+266,domestic appliances,15,802,37,0 <= ... < 200 DM,existing credits paid back duly till now,1,531,0.177
+267,others,36,6304,36,no checking account,critical account/other credits existing,0,540,0.1375
+268,domestic appliances,24,1533,38,no checking account,existing credits paid back duly till now,0,529,0.1875
+269,car (new),14,8978,45,... < 100 DM,existing credits paid back duly till now,1,508,0.3267
+270,domestic appliances,24,999,25,no checking account,existing credits paid back duly till now,0,562,0.0688
+271,car (new),18,2662,32,no checking account,existing credits paid back duly till now,0,551,0.0998
+272,radio/television,12,1402,37,no checking account,critical account/other credits existing,0,578,0.0409
+273,car (new),48,12169,36,0 <= ... < 200 DM,all credits at this bank paid back duly,0,412,0.9314
+274,domestic appliances,48,3060,28,0 <= ... < 200 DM,existing credits paid back duly till now,1,506,0.3437
+275,education,30,11998,34,... < 100 DM,existing credits paid back duly till now,1,454,0.7602
+276,domestic appliances,9,2697,32,no checking account,existing credits paid back duly till now,0,564,0.0651
+277,domestic appliances,18,2404,26,no checking account,critical account/other credits existing,0,561,0.0707
+278,radio/television,12,1262,49,... < 100 DM,existing credits paid back duly till now,0,533,0.1682
+279,radio/television,6,4611,32,no checking account,existing credits paid back duly till now,1,549,0.1054
+280,domestic appliances,24,1901,29,no checking account,existing credits paid back duly till now,0,541,0.1343
+281,car (used),15,3368,23,no checking account,critical account/other credits existing,0,609,0.0142
+282,radio/television,12,1574,50,no checking account,existing credits paid back duly till now,0,537,0.1523
+283,domestic appliances,18,1445,49,... >= 200 DM / salary for at least 1 year,all credits at this bank paid back duly,0,517,0.2632
+284,radio/television,15,1520,63,no checking account,critical account/other credits existing,0,590,0.0278
+285,car (new),24,3878,37,0 <= ... < 200 DM,critical account/other credits existing,0,486,0.5127
+286,car (new),47,10722,35,... < 100 DM,existing credits paid back duly till now,0,455,0.7502
+287,car (used),48,4788,26,... < 100 DM,existing credits paid back duly till now,0,487,0.5021
+288,furniture/equipment,48,7582,31,0 <= ... < 200 DM,delay in paying off in the past,0,423,0.9027
+289,domestic appliances,12,1092,49,0 <= ... < 200 DM,existing credits paid back duly till now,0,516,0.2664
+290,domestic appliances,24,1024,48,... < 100 DM,delay in paying off in the past,1,475,0.6023
+291,others,12,1076,26,no checking account,existing credits paid back duly till now,0,549,0.1046
+292,car (used),36,9398,28,0 <= ... < 200 DM,existing credits paid back duly till now,1,487,0.4971
+293,car (used),24,6419,44,... < 100 DM,critical account/other credits existing,0,518,0.2567
+294,car (used),42,4796,56,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,515,0.2728
+295,others,48,7629,46,no checking account,critical account/other credits existing,0,532,0.176
+296,radio/television,48,9960,26,0 <= ... < 200 DM,existing credits paid back duly till now,1,472,0.6319
+297,car (used),12,4675,20,no checking account,existing credits paid back duly till now,0,573,0.049
+298,car (new),10,1287,45,no checking account,existing credits paid back duly till now,0,534,0.1624
+299,radio/television,18,2515,43,no checking account,existing credits paid back duly till now,0,532,0.1741
+300,radio/television,21,2745,32,0 <= ... < 200 DM,critical account/other credits existing,0,545,0.1183
+301,car (new),6,672,54,no checking account,existing credits paid back duly till now,0,530,0.1836
+302,domestic appliances,36,3804,42,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,463,0.6999
+303,car (new),24,1344,37,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,1,549,0.106
+304,car (new),10,1038,49,... < 100 DM,critical account/other credits existing,0,501,0.3859
+305,car (new),48,10127,44,no checking account,critical account/other credits existing,1,529,0.1888
+306,radio/television,6,1543,33,no checking account,existing credits paid back duly till now,0,575,0.0458
+307,car (used),30,4811,24,no checking account,existing credits paid back duly till now,0,567,0.0588
+308,domestic appliances,12,727,33,... < 100 DM,existing credits paid back duly till now,1,494,0.443
+309,radio/television,8,1237,24,0 <= ... < 200 DM,existing credits paid back duly till now,1,511,0.3024
+310,car (new),9,276,22,0 <= ... < 200 DM,existing credits paid back duly till now,0,488,0.4885
+311,furniture/equipment,48,5381,40,0 <= ... < 200 DM,existing credits paid back duly till now,0,419,0.9138
+312,radio/television,24,5511,25,no checking account,existing credits paid back duly till now,0,511,0.3056
+313,radio/television,24,3749,26,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,508,0.3299
+314,car (new),12,685,25,0 <= ... < 200 DM,existing credits paid back duly till now,1,514,0.284
+315,car (new),4,1494,29,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,535,0.1608
+316,radio/television,36,2746,31,... < 100 DM,all credits at this bank paid back duly,1,458,0.735
+317,radio/television,12,708,38,... < 100 DM,existing credits paid back duly till now,0,504,0.3607
+318,radio/television,24,4351,48,0 <= ... < 200 DM,existing credits paid back duly till now,0,519,0.2508
+319,retraining,12,701,32,no checking account,critical account/other credits existing,0,529,0.1913
+320,radio/television,15,3643,27,... < 100 DM,delay in paying off in the past,0,499,0.3976
+321,car (new),30,4249,28,0 <= ... < 200 DM,critical account/other credits existing,1,497,0.4193
+322,domestic appliances,24,1938,32,... < 100 DM,existing credits paid back duly till now,1,487,0.5036
+323,car (used),24,2910,34,... < 100 DM,existing credits paid back duly till now,0,511,0.3065
+324,radio/television,18,2659,28,... < 100 DM,existing credits paid back duly till now,0,514,0.2851
+325,car (new),18,1028,36,no checking account,critical account/other credits existing,0,538,0.1445
+326,car (new),8,3398,39,... < 100 DM,critical account/other credits existing,0,524,0.2151
+327,radio/television,12,5801,49,no checking account,critical account/other credits existing,0,571,0.0524
+328,car (new),24,1525,34,no checking account,existing credits paid back duly till now,0,565,0.0641
+329,domestic appliances,36,4473,31,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,513,0.2867
+330,domestic appliances,6,1068,28,0 <= ... < 200 DM,existing credits paid back duly till now,0,514,0.2844
+331,car (used),24,6615,75,... < 100 DM,critical account/other credits existing,0,494,0.4401
+332,retraining,18,1864,30,no checking account,critical account/other credits existing,1,540,0.1379
+333,car (new),60,7408,24,0 <= ... < 200 DM,existing credits paid back duly till now,1,449,0.7881
+334,car (used),48,11590,24,no checking account,critical account/other credits existing,1,534,0.1628
+335,radio/television,24,4110,23,... < 100 DM,no credits taken/all credits paid back duly,1,438,0.8477
+336,radio/television,6,3384,44,... < 100 DM,critical account/other credits existing,1,514,0.2847
+337,domestic appliances,13,2101,23,0 <= ... < 200 DM,existing credits paid back duly till now,0,520,0.243
+338,repairs,15,1275,24,... < 100 DM,existing credits paid back duly till now,1,494,0.4417
+339,radio/television,24,4169,28,... < 100 DM,existing credits paid back duly till now,0,483,0.5328
+340,radio/television,10,1521,31,0 <= ... < 200 DM,existing credits paid back duly till now,0,501,0.3846
+341,retraining,24,5743,24,0 <= ... < 200 DM,critical account/other credits existing,0,468,0.6587
+342,radio/television,21,3599,26,... < 100 DM,existing credits paid back duly till now,0,494,0.441
+343,domestic appliances,18,3213,25,0 <= ... < 200 DM,existing credits paid back duly till now,0,512,0.2961
+344,others,18,4439,33,0 <= ... < 200 DM,existing credits paid back duly till now,0,482,0.5465
+345,car (new),10,3949,37,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,536,0.1563
+346,domestic appliances,15,1459,43,no checking account,critical account/other credits existing,0,579,0.0404
+347,domestic appliances,13,882,23,0 <= ... < 200 DM,critical account/other credits existing,0,523,0.2266
+348,domestic appliances,24,3758,23,0 <= ... < 200 DM,existing credits paid back duly till now,0,504,0.3597
+349,others,6,1743,34,no checking account,delay in paying off in the past,0,553,0.0912
+350,retraining,9,1136,32,0 <= ... < 200 DM,critical account/other credits existing,1,532,0.1719
+351,repairs,9,1236,23,no checking account,existing credits paid back duly till now,0,513,0.2928
+352,radio/television,9,959,29,0 <= ... < 200 DM,existing credits paid back duly till now,1,510,0.3135
+353,car (used),18,3229,38,no checking account,critical account/other credits existing,0,584,0.0334
+354,domestic appliances,12,6199,28,... < 100 DM,no credits taken/all credits paid back duly,1,471,0.6322
+355,retraining,10,727,46,no checking account,existing credits paid back duly till now,0,529,0.1904
+356,car (new),24,1246,23,0 <= ... < 200 DM,existing credits paid back duly till now,1,459,0.7272
+357,domestic appliances,12,2331,49,no checking account,critical account/other credits existing,0,604,0.0169
+358,domestic appliances,36,4463,26,no checking account,delay in paying off in the past,1,533,0.1712
+359,domestic appliances,12,776,28,no checking account,existing credits paid back duly till now,0,556,0.0842
+360,radio/television,30,2406,23,... < 100 DM,existing credits paid back duly till now,1,491,0.4708
+361,retraining,18,1239,61,0 <= ... < 200 DM,existing credits paid back duly till now,0,484,0.527
+362,domestic appliances,12,3399,37,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,570,0.0534
+363,car (new),12,2247,36,... >= 200 DM / salary for at least 1 year,delay in paying off in the past,0,511,0.3042
+364,radio/television,6,1766,21,no checking account,existing credits paid back duly till now,0,559,0.0762
+365,radio/television,18,2473,25,... < 100 DM,existing credits paid back duly till now,1,479,0.5707
+366,others,12,1542,36,no checking account,existing credits paid back duly till now,0,556,0.0848
+367,car (used),18,3850,27,no checking account,critical account/other credits existing,0,582,0.0364
+368,radio/television,18,3650,22,... < 100 DM,existing credits paid back duly till now,0,472,0.627
+369,radio/television,36,3446,42,... < 100 DM,existing credits paid back duly till now,1,470,0.6413
+370,radio/television,18,3001,40,0 <= ... < 200 DM,existing credits paid back duly till now,0,500,0.3866
+371,car (new),36,3079,36,no checking account,existing credits paid back duly till now,0,537,0.1495
+372,domestic appliances,18,6070,33,no checking account,critical account/other credits existing,0,558,0.0797
+373,radio/television,10,2146,23,no checking account,critical account/other credits existing,0,550,0.1019
+374,car (new),60,13756,63,no checking account,critical account/other credits existing,0,532,0.1753
+375,furniture/equipment,60,14782,60,0 <= ... < 200 DM,all credits at this bank paid back duly,1,435,0.8573
+376,others,48,7685,37,... < 100 DM,all credits at this bank paid back duly,1,466,0.6777
+377,domestic appliances,18,2320,34,no checking account,delay in paying off in the past,0,547,0.1131
+378,domestic appliances,7,846,36,no checking account,delay in paying off in the past,0,566,0.0612
+379,car (new),36,14318,57,0 <= ... < 200 DM,existing credits paid back duly till now,1,450,0.7848
+380,car (new),6,362,52,no checking account,critical account/other credits existing,0,552,0.0969
+381,radio/television,20,2212,39,... < 100 DM,existing credits paid back duly till now,0,508,0.3275
+382,car (used),18,12976,38,0 <= ... < 200 DM,existing credits paid back duly till now,1,509,0.3161
+383,car (new),22,1283,25,no checking account,existing credits paid back duly till now,0,539,0.1432
+384,car (new),12,1330,26,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,506,0.34
+385,others,30,4272,26,no checking account,delay in paying off in the past,0,530,0.183
+386,domestic appliances,18,2238,25,no checking account,critical account/other credits existing,0,555,0.0866
+387,domestic appliances,18,1126,21,no checking account,existing credits paid back duly till now,0,537,0.1518
+388,radio/television,18,7374,40,0 <= ... < 200 DM,critical account/other credits existing,0,484,0.526
+389,others,15,2326,27,0 <= ... < 200 DM,critical account/other credits existing,0,551,0.0978
+390,others,9,1449,27,no checking account,existing credits paid back duly till now,0,555,0.0857
+391,car (new),18,1820,30,no checking account,existing credits paid back duly till now,0,539,0.1432
+392,radio/television,12,983,19,0 <= ... < 200 DM,existing credits paid back duly till now,0,513,0.2887
+393,car (new),36,3249,39,... < 100 DM,existing credits paid back duly till now,0,448,0.794
+394,domestic appliances,6,1957,31,... < 100 DM,critical account/other credits existing,0,526,0.208
+395,radio/television,9,2406,31,no checking account,critical account/other credits existing,0,568,0.0569
+396,retraining,39,11760,32,0 <= ... < 200 DM,delay in paying off in the past,0,460,0.7188
+397,radio/television,12,2578,55,... < 100 DM,existing credits paid back duly till now,0,475,0.6071
+398,radio/television,36,2348,46,... < 100 DM,critical account/other credits existing,0,499,0.395
+399,car (new),12,1223,46,0 <= ... < 200 DM,existing credits paid back duly till now,1,508,0.3275
+400,domestic appliances,24,1516,43,no checking account,critical account/other credits existing,0,588,0.0291
+401,domestic appliances,18,1473,39,no checking account,existing credits paid back duly till now,0,546,0.1136
+402,others,18,1887,28,0 <= ... < 200 DM,critical account/other credits existing,0,528,0.1947
+403,others,24,8648,27,no checking account,delay in paying off in the past,1,506,0.3444
+404,car (new),14,802,27,no checking account,delay in paying off in the past,0,536,0.1564
+405,car (new),18,2899,43,0 <= ... < 200 DM,delay in paying off in the past,0,499,0.395
+406,domestic appliances,24,2039,22,0 <= ... < 200 DM,existing credits paid back duly till now,1,512,0.2989
+407,car (used),24,2197,43,no checking account,critical account/other credits existing,0,595,0.0231
+408,domestic appliances,15,1053,27,... < 100 DM,existing credits paid back duly till now,0,501,0.3833
+409,domestic appliances,24,3235,26,no checking account,existing credits paid back duly till now,0,583,0.035
+410,car (new),12,939,28,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,1,559,0.0759
+411,domestic appliances,24,1967,20,0 <= ... < 200 DM,existing credits paid back duly till now,0,509,0.317
+412,car (used),33,7253,35,no checking account,critical account/other credits existing,0,553,0.0912
+413,others,12,2292,42,no checking account,critical account/other credits existing,1,545,0.118
+414,car (new),10,1597,40,no checking account,existing credits paid back duly till now,0,545,0.1195
+415,car (new),24,1381,35,... < 100 DM,existing credits paid back duly till now,1,496,0.4273
+416,car (used),36,5842,35,no checking account,critical account/other credits existing,0,552,0.0964
+417,car (new),12,2579,33,... < 100 DM,existing credits paid back duly till now,1,482,0.5408
+418,retraining,18,8471,23,... < 100 DM,delay in paying off in the past,0,473,0.616
+419,car (new),21,2782,31,no checking account,existing credits paid back duly till now,0,556,0.0834
+420,car (new),18,1042,33,0 <= ... < 200 DM,existing credits paid back duly till now,1,516,0.2721
+421,car (new),15,3186,20,no checking account,existing credits paid back duly till now,0,578,0.0409
+422,car (used),12,2028,30,0 <= ... < 200 DM,existing credits paid back duly till now,0,539,0.1427
+423,car (new),12,958,47,0 <= ... < 200 DM,critical account/other credits existing,0,529,0.1878
+424,radio/television,21,1591,34,no checking account,delay in paying off in the past,0,549,0.105
+425,radio/television,12,2762,25,0 <= ... < 200 DM,existing credits paid back duly till now,1,531,0.1816
+426,car (used),18,2779,21,0 <= ... < 200 DM,existing credits paid back duly till now,0,515,0.2779
+427,domestic appliances,28,2743,29,no checking account,critical account/other credits existing,0,559,0.0772
+428,domestic appliances,18,1149,46,no checking account,critical account/other credits existing,0,590,0.0278
+429,radio/television,9,1313,20,no checking account,existing credits paid back duly till now,0,542,0.1285
+430,education,18,1190,55,... < 100 DM,critical account/other credits existing,1,490,0.4729
+431,others,5,3448,74,no checking account,existing credits paid back duly till now,0,561,0.0725
+432,furniture/equipment,24,11328,29,0 <= ... < 200 DM,existing credits paid back duly till now,1,475,0.6038
+433,radio/television,6,1872,36,... < 100 DM,critical account/other credits existing,0,498,0.4098
+434,education,24,2058,33,no checking account,critical account/other credits existing,0,540,0.1367
+435,radio/television,9,2136,25,... < 100 DM,existing credits paid back duly till now,0,492,0.4569
+436,domestic appliances,12,1484,25,0 <= ... < 200 DM,existing credits paid back duly till now,1,547,0.1114
+437,education,6,660,23,no checking account,existing credits paid back duly till now,0,573,0.0488
+438,car (new),24,1287,37,no checking account,critical account/other credits existing,0,575,0.0455
+439,education,42,3394,65,... < 100 DM,critical account/other credits existing,0,466,0.6778
+440,others,12,609,26,... >= 200 DM / salary for at least 1 year,all credits at this bank paid back duly,1,490,0.4716
+441,car (new),12,1884,39,no checking account,existing credits paid back duly till now,0,540,0.1364
+442,radio/television,12,1620,30,... < 100 DM,existing credits paid back duly till now,0,499,0.3986
+443,furniture/equipment,20,2629,29,0 <= ... < 200 DM,delay in paying off in the past,0,470,0.6421
+444,retraining,12,719,41,no checking account,existing credits paid back duly till now,1,534,0.163
+445,radio/television,48,5096,30,0 <= ... < 200 DM,critical account/other credits existing,1,493,0.4517
+446,retraining,9,1244,41,no checking account,critical account/other credits existing,0,557,0.082
+447,car (new),36,1842,34,... < 100 DM,existing credits paid back duly till now,1,447,0.7981
+448,domestic appliances,7,2576,35,0 <= ... < 200 DM,existing credits paid back duly till now,0,564,0.0657
+449,radio/television,12,1424,55,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,562,0.0701
+450,education,15,1512,61,0 <= ... < 200 DM,delay in paying off in the past,1,564,0.0659
+451,car (used),36,11054,30,no checking account,critical account/other credits existing,0,556,0.0841
+452,domestic appliances,6,518,29,no checking account,existing credits paid back duly till now,0,557,0.0815
+453,radio/television,12,2759,34,no checking account,no credits taken/all credits paid back duly,0,536,0.154
+454,car (used),24,2670,35,no checking account,existing credits paid back duly till now,0,553,0.0923
+455,car (new),24,4817,31,... < 100 DM,existing credits paid back duly till now,1,490,0.4783
+456,car (used),24,2679,29,no checking account,existing credits paid back duly till now,0,536,0.1569
+457,car (new),11,3905,36,... < 100 DM,critical account/other credits existing,0,509,0.3181
+458,car (used),12,3386,35,... < 100 DM,existing credits paid back duly till now,1,520,0.2396
+459,repairs,6,343,27,... < 100 DM,existing credits paid back duly till now,0,476,0.5961
+460,domestic appliances,18,4594,32,no checking account,existing credits paid back duly till now,0,536,0.1561
+461,radio/television,36,3620,37,... < 100 DM,existing credits paid back duly till now,0,466,0.6763
+462,car (new),15,1721,36,... < 100 DM,existing credits paid back duly till now,0,496,0.4241
+463,radio/television,12,3017,34,0 <= ... < 200 DM,existing credits paid back duly till now,0,504,0.3543
+464,business,12,754,38,0 <= ... < 200 DM,existing credits paid back duly till now,0,563,0.0663
+465,others,18,1950,34,no checking account,existing credits paid back duly till now,0,521,0.238
+466,car (used),24,2924,63,... < 100 DM,existing credits paid back duly till now,0,509,0.319
+467,domestic appliances,24,1659,29,... < 100 DM,delay in paying off in the past,1,497,0.4146
+468,domestic appliances,48,7238,32,no checking account,delay in paying off in the past,0,532,0.1753
+469,others,33,2764,26,no checking account,delay in paying off in the past,0,514,0.2827
+470,car (used),24,4679,35,no checking account,delay in paying off in the past,0,558,0.0801
+471,domestic appliances,24,3092,22,0 <= ... < 200 DM,existing credits paid back duly till now,1,517,0.2603
+472,retraining,6,448,23,... < 100 DM,existing credits paid back duly till now,1,466,0.6749
+473,car (new),9,654,28,... < 100 DM,existing credits paid back duly till now,1,490,0.478
+474,business,6,1238,36,no checking account,existing credits paid back duly till now,0,585,0.0329
+475,domestic appliances,18,1245,33,0 <= ... < 200 DM,critical account/other credits existing,1,526,0.2085
+476,radio/television,18,3114,26,... < 100 DM,no credits taken/all credits paid back duly,1,448,0.7938
+477,car (used),39,2569,24,no checking account,existing credits paid back duly till now,0,548,0.1082
+478,domestic appliances,24,5152,25,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,513,0.2899
+479,others,12,1037,39,0 <= ... < 200 DM,existing credits paid back duly till now,0,515,0.279
+480,radio/television,15,1478,44,... < 100 DM,critical account/other credits existing,0,521,0.2374
+481,domestic appliances,12,3573,23,0 <= ... < 200 DM,critical account/other credits existing,0,550,0.1008
+482,car (new),24,1201,26,0 <= ... < 200 DM,existing credits paid back duly till now,0,475,0.6038
+483,radio/television,30,3622,57,... < 100 DM,existing credits paid back duly till now,0,511,0.3045
+484,radio/television,15,960,30,no checking account,delay in paying off in the past,0,584,0.0334
+485,car (new),12,1163,44,no checking account,critical account/other credits existing,0,567,0.0582
+486,car (new),6,1209,47,0 <= ... < 200 DM,delay in paying off in the past,1,491,0.4645
+487,domestic appliances,12,3077,52,no checking account,existing credits paid back duly till now,0,559,0.077
+488,car (new),24,3757,62,no checking account,existing credits paid back duly till now,0,518,0.2551
+489,car (new),10,1418,35,no checking account,existing credits paid back duly till now,0,534,0.1668
+490,car (new),6,3518,26,no checking account,existing credits paid back duly till now,0,569,0.0558
+491,domestic appliances,12,1934,26,no checking account,critical account/other credits existing,0,591,0.0266
+492,others,27,8318,42,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,460,0.7207
+493,domestic appliances,6,1237,27,no checking account,critical account/other credits existing,0,581,0.0378
+494,domestic appliances,6,368,38,0 <= ... < 200 DM,existing credits paid back duly till now,0,536,0.1532
+495,car (new),12,2122,39,... < 100 DM,critical account/other credits existing,0,498,0.4052
+496,radio/television,24,2996,20,... < 100 DM,existing credits paid back duly till now,1,516,0.2707
+497,radio/television,36,9034,29,0 <= ... < 200 DM,existing credits paid back duly till now,1,439,0.8413
+498,radio/television,24,1585,40,no checking account,critical account/other credits existing,0,556,0.0835
+499,domestic appliances,18,1301,32,0 <= ... < 200 DM,existing credits paid back duly till now,0,509,0.3181
+500,car (new),6,1323,28,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,550,0.1014
+501,car (new),24,3123,27,... < 100 DM,existing credits paid back duly till now,1,462,0.7015
+502,car (used),36,5493,42,... < 100 DM,existing credits paid back duly till now,0,481,0.5525
+503,domestic appliances,9,1126,49,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,563,0.0662
+504,domestic appliances,24,1216,38,0 <= ... < 200 DM,critical account/other credits existing,1,498,0.4042
+505,car (new),24,1207,24,... < 100 DM,existing credits paid back duly till now,1,457,0.7427
+506,car (new),10,1309,27,no checking account,existing credits paid back duly till now,1,580,0.0391
+507,car (used),15,2360,36,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,590,0.0271
+508,car (new),15,6850,34,0 <= ... < 200 DM,all credits at this bank paid back duly,1,487,0.5026
+509,domestic appliances,24,1413,28,no checking account,existing credits paid back duly till now,0,543,0.1265
+510,car (used),39,8588,45,no checking account,existing credits paid back duly till now,0,527,0.2004
+511,car (new),12,759,26,... < 100 DM,existing credits paid back duly till now,1,505,0.3467
+512,car (used),36,4686,32,no checking account,existing credits paid back duly till now,0,523,0.2227
+513,others,15,2687,26,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,529,0.1912
+514,domestic appliances,12,585,20,0 <= ... < 200 DM,delay in paying off in the past,0,487,0.5003
+515,car (new),24,2255,54,no checking account,existing credits paid back duly till now,0,531,0.1771
+516,car (new),6,609,37,... < 100 DM,critical account/other credits existing,0,514,0.2844
+517,car (new),6,1361,40,... < 100 DM,critical account/other credits existing,0,516,0.2697
+518,radio/television,36,7127,23,no checking account,critical account/other credits existing,1,512,0.2963
+519,car (new),6,1203,43,... < 100 DM,existing credits paid back duly till now,0,500,0.3875
+520,domestic appliances,6,700,36,no checking account,critical account/other credits existing,0,584,0.0336
+521,education,24,5507,44,no checking account,critical account/other credits existing,0,535,0.1586
+522,domestic appliances,18,3190,24,... < 100 DM,existing credits paid back duly till now,1,512,0.2992
+523,radio/television,48,7119,53,... < 100 DM,no credits taken/all credits paid back duly,1,436,0.854
+524,car (used),24,3488,23,no checking account,existing credits paid back duly till now,0,573,0.0489
+525,domestic appliances,18,1113,26,0 <= ... < 200 DM,existing credits paid back duly till now,0,501,0.3828
+526,car (used),26,7966,30,0 <= ... < 200 DM,existing credits paid back duly till now,0,489,0.4799
+527,retraining,15,1532,31,no checking account,critical account/other credits existing,0,548,0.1079
+528,domestic appliances,4,1503,42,no checking account,critical account/other credits existing,0,576,0.0441
+529,domestic appliances,36,2302,31,... < 100 DM,existing credits paid back duly till now,1,474,0.61
+530,car (new),6,662,41,... < 100 DM,existing credits paid back duly till now,0,483,0.5357
+531,retraining,36,2273,32,0 <= ... < 200 DM,existing credits paid back duly till now,0,482,0.5463
+532,car (new),15,2631,28,0 <= ... < 200 DM,existing credits paid back duly till now,1,515,0.2733
+533,car (used),12,1503,41,no checking account,delay in paying off in the past,0,555,0.0878
+534,domestic appliances,24,1311,26,no checking account,existing credits paid back duly till now,0,558,0.0792
+535,domestic appliances,24,3105,25,no checking account,existing credits paid back duly till now,0,562,0.0686
+536,retraining,21,2319,33,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,1,517,0.263
+537,car (new),6,1374,75,... < 100 DM,existing credits paid back duly till now,0,498,0.4071
+538,radio/television,18,3612,37,0 <= ... < 200 DM,critical account/other credits existing,0,521,0.2377
+539,car (new),48,7763,42,... < 100 DM,existing credits paid back duly till now,1,433,0.8656
+540,radio/television,18,3049,45,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,498,0.4036
+541,domestic appliances,12,1534,23,0 <= ... < 200 DM,existing credits paid back duly till now,1,518,0.2532
+542,car (new),24,2032,60,no checking account,delay in paying off in the past,0,506,0.341
+543,radio/television,30,6350,31,... < 100 DM,existing credits paid back duly till now,1,502,0.3775
+544,radio/television,18,2864,34,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,1,535,0.1599
+545,car (new),12,1255,61,no checking account,critical account/other credits existing,0,549,0.1057
+546,car (new),24,1333,43,... < 100 DM,delay in paying off in the past,1,462,0.7028
+547,car (new),24,2022,37,no checking account,critical account/other credits existing,0,539,0.143
+548,domestic appliances,24,1552,32,no checking account,existing credits paid back duly till now,0,549,0.1063
+549,domestic appliances,12,626,24,... < 100 DM,all credits at this bank paid back duly,1,481,0.5493
+550,car (used),48,8858,35,no checking account,critical account/other credits existing,0,562,0.0704
+551,education,12,996,23,no checking account,critical account/other credits existing,0,587,0.0306
+552,domestic appliances,6,1750,45,no checking account,all credits at this bank paid back duly,0,554,0.0907
+553,domestic appliances,48,6999,34,... < 100 DM,existing credits paid back duly till now,1,514,0.283
+554,car (new),12,1995,27,0 <= ... < 200 DM,critical account/other credits existing,0,500,0.3943
+555,retraining,9,1199,67,0 <= ... < 200 DM,existing credits paid back duly till now,0,495,0.4313
+556,domestic appliances,12,1331,22,0 <= ... < 200 DM,existing credits paid back duly till now,1,503,0.3664
+557,car (new),18,2278,28,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,464,0.687
+558,car (new),21,5003,29,no checking account,no credits taken/all credits paid back duly,1,503,0.3622
+559,radio/television,24,3552,27,... < 100 DM,all credits at this bank paid back duly,1,478,0.5759
+560,radio/television,18,1928,31,0 <= ... < 200 DM,critical account/other credits existing,1,515,0.2758
+561,car (used),24,2964,49,... < 100 DM,existing credits paid back duly till now,0,504,0.3587
+562,domestic appliances,24,1546,24,... < 100 DM,all credits at this bank paid back duly,1,482,0.5469
+563,domestic appliances,6,683,29,... >= 200 DM / salary for at least 1 year,delay in paying off in the past,0,533,0.167
+564,car (new),36,12389,37,0 <= ... < 200 DM,existing credits paid back duly till now,1,489,0.4859
+565,others,24,4712,37,0 <= ... < 200 DM,delay in paying off in the past,0,493,0.4455
+566,domestic appliances,24,1553,23,0 <= ... < 200 DM,delay in paying off in the past,0,507,0.3378
+567,car (new),12,1372,36,... < 100 DM,existing credits paid back duly till now,1,511,0.307
+568,domestic appliances,24,2578,34,no checking account,critical account/other credits existing,0,599,0.02
+569,domestic appliances,48,3979,41,0 <= ... < 200 DM,existing credits paid back duly till now,0,532,0.1749
+570,domestic appliances,48,6758,31,... < 100 DM,existing credits paid back duly till now,1,483,0.5383
+571,radio/television,24,3234,23,... < 100 DM,existing credits paid back duly till now,1,464,0.689
+572,domestic appliances,30,5954,38,no checking account,critical account/other credits existing,0,544,0.1219
+573,car (used),24,5433,26,no checking account,existing credits paid back duly till now,0,570,0.0542
+574,others,15,806,22,... < 100 DM,existing credits paid back duly till now,0,495,0.4329
+575,domestic appliances,9,1082,27,0 <= ... < 200 DM,existing credits paid back duly till now,0,516,0.272
+576,radio/television,15,2788,24,no checking account,critical account/other credits existing,0,539,0.1411
+577,domestic appliances,12,2930,27,0 <= ... < 200 DM,existing credits paid back duly till now,0,530,0.186
+578,retraining,24,1927,33,no checking account,critical account/other credits existing,0,555,0.0879
+579,car (new),36,2820,27,0 <= ... < 200 DM,critical account/other credits existing,1,478,0.5766
+580,business,24,937,27,no checking account,existing credits paid back duly till now,0,534,0.1646
+581,car (new),18,1056,30,0 <= ... < 200 DM,critical account/other credits existing,1,518,0.2575
+582,car (new),12,3124,49,0 <= ... < 200 DM,critical account/other credits existing,0,503,0.3687
+583,radio/television,9,1388,26,no checking account,existing credits paid back duly till now,0,540,0.139
+584,education,36,2384,33,0 <= ... < 200 DM,existing credits paid back duly till now,1,461,0.7093
+585,car (new),12,2133,52,no checking account,existing credits paid back duly till now,0,540,0.1377
+586,radio/television,18,2039,20,... < 100 DM,existing credits paid back duly till now,1,481,0.5531
+587,car (new),9,2799,36,... < 100 DM,critical account/other credits existing,0,498,0.4052
+588,radio/television,12,1289,21,... < 100 DM,existing credits paid back duly till now,0,523,0.2221
+589,repairs,18,1217,47,... < 100 DM,existing credits paid back duly till now,1,486,0.5068
+590,radio/television,12,2246,60,... < 100 DM,critical account/other credits existing,1,521,0.2332
+591,domestic appliances,12,385,58,... < 100 DM,critical account/other credits existing,0,532,0.1758
+592,car (new),24,1965,42,0 <= ... < 200 DM,delay in paying off in the past,0,494,0.4389
+593,others,21,1572,36,no checking account,existing credits paid back duly till now,0,549,0.1055
+594,car (new),24,2718,20,0 <= ... < 200 DM,existing credits paid back duly till now,1,481,0.5523
+595,furniture/equipment,24,1358,40,... < 100 DM,all credits at this bank paid back duly,1,470,0.6452
+596,car (new),6,931,32,0 <= ... < 200 DM,all credits at this bank paid back duly,1,469,0.6541
+597,car (new),24,1442,23,... < 100 DM,existing credits paid back duly till now,1,485,0.5216
+598,others,24,4241,36,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,482,0.5404
+599,car (new),18,2775,31,no checking account,critical account/other credits existing,1,551,0.0989
+600,others,24,3863,32,no checking account,delay in paying off in the past,0,526,0.2074
+601,domestic appliances,7,2329,45,0 <= ... < 200 DM,existing credits paid back duly till now,0,523,0.2229
+602,radio/television,9,918,30,0 <= ... < 200 DM,existing credits paid back duly till now,1,499,0.3967
+603,retraining,24,1837,34,0 <= ... < 200 DM,all credits at this bank paid back duly,1,453,0.7653
+604,radio/television,36,3349,28,no checking account,existing credits paid back duly till now,1,513,0.2931
+605,radio/television,10,1275,23,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,520,0.2399
+606,radio/television,24,2828,22,... < 100 DM,all credits at this bank paid back duly,0,479,0.5724
+607,others,24,4526,74,no checking account,critical account/other credits existing,0,557,0.0819
+608,domestic appliances,36,2671,50,0 <= ... < 200 DM,existing credits paid back duly till now,1,478,0.5797
+609,domestic appliances,18,2051,33,no checking account,existing credits paid back duly till now,0,536,0.154
+610,car (used),15,1300,45,no checking account,existing credits paid back duly till now,0,574,0.0462
+611,repairs,12,741,22,... < 100 DM,existing credits paid back duly till now,1,491,0.4664
+612,car (new),10,1240,48,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,1,526,0.2076
+613,domestic appliances,21,3357,29,... < 100 DM,existing credits paid back duly till now,0,501,0.3824
+614,car (used),24,3632,22,... < 100 DM,all credits at this bank paid back duly,0,475,0.6006
+615,radio/television,18,1808,22,no checking account,delay in paying off in the past,1,549,0.105
+616,others,48,12204,48,0 <= ... < 200 DM,no credits taken/all credits paid back duly,0,460,0.7222
+617,domestic appliances,60,9157,27,0 <= ... < 200 DM,delay in paying off in the past,0,503,0.3623
+618,car (new),6,3676,37,... < 100 DM,critical account/other credits existing,0,499,0.3944
+619,radio/television,30,3441,21,0 <= ... < 200 DM,existing credits paid back duly till now,1,483,0.5327
+620,car (new),12,640,49,no checking account,existing credits paid back duly till now,0,529,0.1895
+621,others,21,3652,27,0 <= ... < 200 DM,critical account/other credits existing,0,515,0.2734
+622,car (new),18,1530,32,no checking account,critical account/other credits existing,1,539,0.1433
+623,others,48,3914,38,no checking account,existing credits paid back duly till now,1,533,0.1711
+624,radio/television,12,1858,22,... < 100 DM,existing credits paid back duly till now,0,479,0.5689
+625,domestic appliances,18,2600,65,... < 100 DM,existing credits paid back duly till now,1,476,0.5948
+626,domestic appliances,15,1979,35,no checking account,existing credits paid back duly till now,0,584,0.0331
+627,radio/television,6,2116,41,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,531,0.1808
+628,car (new),9,1437,29,0 <= ... < 200 DM,all credits at this bank paid back duly,1,495,0.4345
+629,radio/television,42,4042,36,no checking account,critical account/other credits existing,0,542,0.1285
+630,retraining,9,3832,64,no checking account,existing credits paid back duly till now,0,566,0.062
+631,domestic appliances,24,3660,28,... < 100 DM,existing credits paid back duly till now,0,507,0.3306
+632,radio/television,18,1553,44,... < 100 DM,all credits at this bank paid back duly,1,454,0.7622
+633,domestic appliances,15,1444,23,0 <= ... < 200 DM,existing credits paid back duly till now,0,544,0.1236
+634,radio/television,9,1980,19,no checking account,existing credits paid back duly till now,1,534,0.1647
+635,car (new),24,1355,25,0 <= ... < 200 DM,existing credits paid back duly till now,1,497,0.4111
+636,retraining,12,1393,47,no checking account,existing credits paid back duly till now,0,518,0.256
+637,domestic appliances,24,1376,28,no checking account,existing credits paid back duly till now,0,578,0.0406
+638,domestic appliances,60,15653,21,no checking account,delay in paying off in the past,0,541,0.1356
+639,domestic appliances,12,1493,34,no checking account,existing credits paid back duly till now,0,546,0.116
+640,domestic appliances,42,4370,26,... < 100 DM,delay in paying off in the past,1,494,0.4404
+641,retraining,18,750,27,... < 100 DM,existing credits paid back duly till now,1,463,0.6965
+642,education,15,1308,38,0 <= ... < 200 DM,existing credits paid back duly till now,0,504,0.3575
+643,retraining,15,4623,40,no checking account,existing credits paid back duly till now,1,561,0.0718
+644,domestic appliances,24,1851,33,no checking account,critical account/other credits existing,0,569,0.0544
+645,domestic appliances,18,1880,32,... < 100 DM,critical account/other credits existing,0,521,0.2383
+646,others,36,7980,27,no checking account,delay in paying off in the past,1,498,0.4042
+647,radio/television,30,4583,32,... < 100 DM,no credits taken/all credits paid back duly,0,460,0.7217
+648,car (new),12,1386,26,no checking account,existing credits paid back duly till now,1,579,0.0402
+649,car (new),24,947,38,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,1,487,0.4968
+650,retraining,12,684,40,... < 100 DM,existing credits paid back duly till now,1,483,0.5391
+651,retraining,48,7476,50,... < 100 DM,existing credits paid back duly till now,0,437,0.8507
+652,radio/television,12,1922,37,0 <= ... < 200 DM,existing credits paid back duly till now,1,507,0.3338
+653,car (new),24,2303,45,... < 100 DM,existing credits paid back duly till now,1,472,0.6267
+654,car (new),36,8086,42,0 <= ... < 200 DM,delay in paying off in the past,1,483,0.5338
+655,car (used),24,2346,35,no checking account,critical account/other credits existing,0,576,0.044
+656,car (new),14,3973,22,... < 100 DM,existing credits paid back duly till now,0,492,0.4572
+657,car (new),12,888,41,0 <= ... < 200 DM,existing credits paid back duly till now,1,498,0.406
+658,domestic appliances,48,10222,37,no checking account,existing credits paid back duly till now,0,536,0.1538
+659,others,30,4221,28,0 <= ... < 200 DM,no credits taken/all credits paid back duly,0,468,0.6571
+660,radio/television,18,6361,41,0 <= ... < 200 DM,critical account/other credits existing,0,509,0.317
+661,domestic appliances,12,1297,23,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,545,0.1189
+662,car (new),12,900,23,... < 100 DM,existing credits paid back duly till now,1,510,0.3086
+663,radio/television,21,2241,50,no checking account,existing credits paid back duly till now,0,545,0.117
+664,radio/television,6,1050,35,0 <= ... < 200 DM,delay in paying off in the past,0,490,0.4729
+665,retraining,6,1047,50,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,516,0.2705
+666,furniture/equipment,24,6314,27,no checking account,critical account/other credits existing,0,485,0.5152
+667,radio/television,30,3496,34,0 <= ... < 200 DM,all credits at this bank paid back duly,0,491,0.4623
+668,others,48,3609,27,no checking account,all credits at this bank paid back duly,0,486,0.5084
+669,car (new),12,4843,43,... < 100 DM,critical account/other credits existing,1,490,0.4747
+670,domestic appliances,30,3017,47,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,545,0.1174
+671,others,24,4139,27,no checking account,critical account/other credits existing,0,553,0.0932
+672,others,36,5742,31,no checking account,existing credits paid back duly till now,0,515,0.2727
+673,car (new),60,10366,42,no checking account,existing credits paid back duly till now,0,514,0.2818
+674,car (new),6,2080,24,no checking account,critical account/other credits existing,0,589,0.0287
+675,others,21,2580,41,no checking account,delay in paying off in the past,1,531,0.1808
+676,domestic appliances,30,4530,26,no checking account,critical account/other credits existing,0,564,0.0645
+677,radio/television,24,5150,33,no checking account,critical account/other credits existing,0,544,0.1221
+678,domestic appliances,72,5595,24,0 <= ... < 200 DM,existing credits paid back duly till now,1,487,0.5053
+679,domestic appliances,24,2384,64,... < 100 DM,existing credits paid back duly till now,0,489,0.4875
+680,domestic appliances,18,1453,26,no checking account,existing credits paid back duly till now,0,541,0.1345
+681,retraining,6,1538,56,no checking account,existing credits paid back duly till now,0,511,0.3032
+682,domestic appliances,12,2279,37,no checking account,existing credits paid back duly till now,0,572,0.0502
+683,domestic appliances,15,1478,33,no checking account,delay in paying off in the past,0,557,0.0806
+684,domestic appliances,24,5103,47,no checking account,critical account/other credits existing,0,534,0.1636
+685,others,36,9857,31,0 <= ... < 200 DM,delay in paying off in the past,0,479,0.5721
+686,car (new),60,6527,34,no checking account,existing credits paid back duly till now,0,495,0.43
+687,domestic appliances,10,1347,27,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,577,0.0429
+688,car (new),36,2862,30,0 <= ... < 200 DM,delay in paying off in the past,0,466,0.6784
+689,domestic appliances,9,2753,35,no checking account,existing credits paid back duly till now,0,546,0.1163
+690,car (new),12,3651,31,... < 100 DM,existing credits paid back duly till now,0,512,0.2937
+691,radio/television,15,975,25,... < 100 DM,critical account/other credits existing,0,521,0.2358
+692,education,15,2631,25,0 <= ... < 200 DM,existing credits paid back duly till now,0,495,0.4336
+693,domestic appliances,24,2896,29,0 <= ... < 200 DM,existing credits paid back duly till now,0,498,0.408
+694,car (new),6,4716,44,... < 100 DM,critical account/other credits existing,0,528,0.1943
+695,domestic appliances,24,2284,28,no checking account,existing credits paid back duly till now,0,550,0.1012
+696,car (used),6,1236,50,no checking account,existing credits paid back duly till now,0,602,0.0184
+697,domestic appliances,12,1103,29,0 <= ... < 200 DM,existing credits paid back duly till now,0,531,0.1804
+698,car (new),12,926,38,no checking account,critical account/other credits existing,0,556,0.0847
+699,domestic appliances,18,1800,24,no checking account,critical account/other credits existing,0,560,0.0749
+700,retraining,15,1905,40,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,515,0.275
+701,radio/television,12,1123,29,no checking account,existing credits paid back duly till now,1,571,0.0511
+702,car (used),48,6331,46,... < 100 DM,critical account/other credits existing,1,488,0.4904
+703,domestic appliances,24,1377,47,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,539,0.1411
+704,others,30,2503,41,0 <= ... < 200 DM,delay in paying off in the past,0,482,0.5431
+705,others,27,2528,32,0 <= ... < 200 DM,existing credits paid back duly till now,0,475,0.6038
+706,car (new),15,5324,35,no checking account,existing credits paid back duly till now,0,540,0.1365
+707,car (new),48,6560,24,0 <= ... < 200 DM,existing credits paid back duly till now,1,487,0.5046
+708,radio/television,12,2969,25,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,472,0.6256
+709,domestic appliances,9,1206,25,0 <= ... < 200 DM,existing credits paid back duly till now,0,527,0.2011
+710,domestic appliances,9,2118,37,0 <= ... < 200 DM,existing credits paid back duly till now,0,524,0.2179
+711,domestic appliances,18,629,32,no checking account,critical account/other credits existing,0,571,0.0515
+712,retraining,6,1198,35,... < 100 DM,all credits at this bank paid back duly,1,469,0.654
+713,car (used),21,2476,46,no checking account,existing credits paid back duly till now,0,586,0.0318
+714,domestic appliances,9,1138,25,... < 100 DM,critical account/other credits existing,0,524,0.2198
+715,car (new),60,14027,27,0 <= ... < 200 DM,existing credits paid back duly till now,1,472,0.6241
+716,car (used),30,7596,63,no checking account,critical account/other credits existing,0,582,0.0357
+717,domestic appliances,30,3077,40,no checking account,critical account/other credits existing,0,585,0.0328
+718,domestic appliances,18,1505,32,no checking account,existing credits paid back duly till now,0,535,0.1604
+719,domestic appliances,24,3148,31,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,559,0.0775
+720,car (used),20,6148,31,0 <= ... < 200 DM,no credits taken/all credits paid back duly,0,474,0.6123
+721,domestic appliances,9,1337,34,... >= 200 DM / salary for at least 1 year,no credits taken/all credits paid back duly,1,509,0.32
+722,retraining,6,433,24,0 <= ... < 200 DM,all credits at this bank paid back duly,1,460,0.7176
+723,car (new),12,1228,24,... < 100 DM,existing credits paid back duly till now,1,487,0.4997
+724,domestic appliances,9,790,66,0 <= ... < 200 DM,existing credits paid back duly till now,0,542,0.13
+725,car (new),27,2570,21,no checking account,existing credits paid back duly till now,1,528,0.1931
+726,car (new),6,250,41,no checking account,critical account/other credits existing,0,584,0.0333
+727,domestic appliances,15,1316,47,no checking account,critical account/other credits existing,0,606,0.0159
+728,domestic appliances,18,1882,25,... < 100 DM,existing credits paid back duly till now,1,477,0.5885
+729,others,48,6416,59,0 <= ... < 200 DM,all credits at this bank paid back duly,1,432,0.8698
+730,others,24,1275,36,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,564,0.0642
+731,domestic appliances,24,6403,33,0 <= ... < 200 DM,delay in paying off in the past,0,493,0.4486
+732,domestic appliances,24,1987,21,... < 100 DM,existing credits paid back duly till now,1,507,0.3373
+733,domestic appliances,8,760,44,0 <= ... < 200 DM,existing credits paid back duly till now,0,547,0.1109
+734,car (used),24,2603,28,no checking account,existing credits paid back duly till now,0,570,0.0542
+735,car (new),4,3380,37,no checking account,critical account/other credits existing,0,584,0.0337
+736,repairs,36,3990,29,0 <= ... < 200 DM,all credits at this bank paid back duly,0,441,0.8312
+737,car (used),24,11560,23,0 <= ... < 200 DM,existing credits paid back duly till now,1,514,0.2831
+738,car (new),18,4380,35,... < 100 DM,existing credits paid back duly till now,0,475,0.6062
+739,car (new),6,6761,45,no checking account,critical account/other credits existing,0,553,0.0922
+740,others,30,4280,26,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,471,0.6337
+741,car (new),24,2325,32,... < 100 DM,all credits at this bank paid back duly,0,457,0.7407
+742,domestic appliances,10,1048,23,0 <= ... < 200 DM,all credits at this bank paid back duly,0,483,0.5318
+743,domestic appliances,21,3160,41,no checking account,existing credits paid back duly till now,0,566,0.0617
+744,radio/television,24,2483,22,... < 100 DM,all credits at this bank paid back duly,0,483,0.5324
+745,radio/television,39,14179,30,... < 100 DM,critical account/other credits existing,0,504,0.3592
+746,others,13,1797,28,... < 100 DM,critical account/other credits existing,0,493,0.449
+747,car (new),15,2511,23,... < 100 DM,existing credits paid back duly till now,0,480,0.5629
+748,car (new),12,1274,37,... < 100 DM,existing credits paid back duly till now,1,487,0.5016
+749,car (used),21,5248,26,no checking account,existing credits paid back duly till now,0,573,0.0484
+750,car (used),15,3029,33,no checking account,existing credits paid back duly till now,0,585,0.0325
+751,radio/television,6,428,49,... < 100 DM,existing credits paid back duly till now,0,504,0.3593
+752,car (new),18,976,23,... < 100 DM,existing credits paid back duly till now,1,469,0.6559
+753,others,12,841,23,0 <= ... < 200 DM,existing credits paid back duly till now,0,513,0.2929
+754,domestic appliances,30,5771,25,no checking account,critical account/other credits existing,0,554,0.0899
+755,education,12,1555,55,no checking account,delay in paying off in the past,1,572,0.0497
+756,car (new),24,1285,32,... < 100 DM,existing credits paid back duly till now,1,495,0.434
+757,car (new),6,1299,74,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,539,0.1427
+758,domestic appliances,15,1271,39,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,1,584,0.0339
+759,car (new),24,1393,31,no checking account,existing credits paid back duly till now,0,542,0.1317
+760,car (new),12,691,35,... < 100 DM,critical account/other credits existing,1,502,0.3755
+761,car (new),15,5045,59,no checking account,critical account/other credits existing,0,581,0.0373
+762,radio/television,18,2124,24,... < 100 DM,critical account/other credits existing,1,505,0.352
+763,domestic appliances,12,2214,24,... < 100 DM,existing credits paid back duly till now,0,504,0.3538
+764,car (new),21,12680,30,no checking account,critical account/other credits existing,1,545,0.1194
+765,car (new),24,2463,27,no checking account,critical account/other credits existing,0,546,0.1143
+766,domestic appliances,12,1155,40,0 <= ... < 200 DM,existing credits paid back duly till now,0,519,0.25
+767,radio/television,30,3108,31,... < 100 DM,existing credits paid back duly till now,1,483,0.5392
+768,car (used),10,2901,31,no checking account,existing credits paid back duly till now,0,583,0.0349
+769,radio/television,12,3617,28,0 <= ... < 200 DM,critical account/other credits existing,0,527,0.2009
+770,domestic appliances,12,1655,63,no checking account,critical account/other credits existing,0,596,0.0224
+771,car (used),24,2812,26,... < 100 DM,existing credits paid back duly till now,0,525,0.2104
+772,retraining,36,8065,25,... < 100 DM,critical account/other credits existing,1,459,0.7272
+773,car (used),21,3275,36,no checking account,critical account/other credits existing,0,587,0.0303
+774,domestic appliances,24,2223,52,no checking account,critical account/other credits existing,0,552,0.0953
+775,car (new),12,1480,66,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,530,0.1854
+776,car (new),24,1371,25,... < 100 DM,existing credits paid back duly till now,1,490,0.4764
+777,car (new),36,3535,37,no checking account,critical account/other credits existing,0,544,0.1237
+778,domestic appliances,18,3509,25,... < 100 DM,existing credits paid back duly till now,0,514,0.2816
+779,car (used),36,5711,38,no checking account,critical account/other credits existing,0,567,0.0587
+780,education,18,3872,67,0 <= ... < 200 DM,existing credits paid back duly till now,0,480,0.56
+781,domestic appliances,39,4933,25,0 <= ... < 200 DM,critical account/other credits existing,1,556,0.0846
+782,car (new),24,1940,60,no checking account,critical account/other credits existing,0,579,0.0393
+783,business,12,1410,31,0 <= ... < 200 DM,no credits taken/all credits paid back duly,0,534,0.1622
+784,car (new),12,836,23,0 <= ... < 200 DM,existing credits paid back duly till now,1,488,0.4921
+785,car (used),20,6468,60,0 <= ... < 200 DM,existing credits paid back duly till now,0,517,0.2605
+786,others,18,1941,35,0 <= ... < 200 DM,existing credits paid back duly till now,0,507,0.3381
+787,domestic appliances,22,2675,40,no checking account,existing credits paid back duly till now,0,578,0.0412
+788,car (used),48,2751,38,no checking account,critical account/other credits existing,0,570,0.0533
+789,retraining,48,6224,50,0 <= ... < 200 DM,delay in paying off in the past,1,447,0.799
+790,retraining,40,5998,27,... < 100 DM,critical account/other credits existing,1,443,0.8242
+791,others,21,1188,39,0 <= ... < 200 DM,existing credits paid back duly till now,1,504,0.3558
+792,car (used),24,6313,41,no checking account,existing credits paid back duly till now,0,571,0.0522
+793,radio/television,6,1221,27,no checking account,critical account/other credits existing,0,573,0.0489
+794,radio/television,24,2892,51,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,514,0.282
+795,radio/television,24,3062,32,no checking account,existing credits paid back duly till now,0,546,0.1146
+796,radio/television,9,2301,22,no checking account,existing credits paid back duly till now,0,536,0.1535
+797,car (used),18,7511,51,... < 100 DM,existing credits paid back duly till now,1,525,0.2117
+798,radio/television,12,1258,22,no checking account,critical account/other credits existing,0,546,0.1154
+799,car (new),24,717,54,no checking account,delay in paying off in the past,0,546,0.1142
+800,car (new),9,1549,35,0 <= ... < 200 DM,existing credits paid back duly till now,0,506,0.3417
+801,retraining,24,1597,54,no checking account,critical account/other credits existing,0,520,0.2429
+802,domestic appliances,18,1795,48,0 <= ... < 200 DM,critical account/other credits existing,0,554,0.0893
+803,radio/television,20,4272,24,... < 100 DM,critical account/other credits existing,0,512,0.2954
+804,domestic appliances,12,976,35,no checking account,critical account/other credits existing,0,594,0.0241
+805,car (new),12,7472,24,0 <= ... < 200 DM,existing credits paid back duly till now,0,514,0.2861
+806,car (new),36,9271,24,... < 100 DM,existing credits paid back duly till now,1,476,0.5939
+807,domestic appliances,6,590,26,0 <= ... < 200 DM,existing credits paid back duly till now,0,521,0.2371
+808,domestic appliances,12,930,65,no checking account,critical account/other credits existing,0,596,0.0228
+809,car (used),42,9283,55,0 <= ... < 200 DM,all credits at this bank paid back duly,0,444,0.8167
+810,car (new),15,1778,26,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,482,0.547
+811,others,8,907,26,0 <= ... < 200 DM,existing credits paid back duly till now,0,496,0.4239
+812,domestic appliances,6,484,28,0 <= ... < 200 DM,existing credits paid back duly till now,0,526,0.2038
+813,car (used),36,9629,24,... < 100 DM,critical account/other credits existing,1,500,0.3885
+814,repairs,48,3051,54,... < 100 DM,existing credits paid back duly till now,1,471,0.6327
+815,car (new),48,3931,46,... < 100 DM,existing credits paid back duly till now,1,463,0.6991
+816,car (new),36,7432,54,0 <= ... < 200 DM,delay in paying off in the past,0,459,0.7229
+817,repairs,6,1338,62,no checking account,existing credits paid back duly till now,0,549,0.1047
+818,domestic appliances,6,1554,24,no checking account,critical account/other credits existing,0,582,0.0357
+819,furniture/equipment,36,15857,43,... < 100 DM,existing credits paid back duly till now,0,440,0.8369
+820,domestic appliances,18,1345,26,... < 100 DM,existing credits paid back duly till now,1,491,0.4671
+821,car (new),12,1101,27,no checking account,existing credits paid back duly till now,0,550,0.1028
+822,domestic appliances,12,3016,24,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,538,0.1454
+823,radio/television,36,2712,41,... < 100 DM,existing credits paid back duly till now,1,453,0.7681
+824,car (new),8,731,47,... < 100 DM,critical account/other credits existing,0,505,0.3496
+825,radio/television,18,3780,35,no checking account,critical account/other credits existing,0,548,0.1065
+826,car (new),21,1602,30,... < 100 DM,critical account/other credits existing,0,492,0.458
+827,car (new),18,3966,33,... < 100 DM,critical account/other credits existing,1,504,0.3553
+828,others,18,4165,36,no checking account,no credits taken/all credits paid back duly,1,496,0.421
+829,car (used),36,8335,47,... < 100 DM,existing credits paid back duly till now,1,496,0.4211
+830,others,48,6681,38,0 <= ... < 200 DM,delay in paying off in the past,0,457,0.7372
+831,others,24,2375,44,no checking account,delay in paying off in the past,0,539,0.1414
+832,car (new),18,1216,23,... < 100 DM,existing credits paid back duly till now,1,453,0.7673
+833,others,45,11816,29,... < 100 DM,no credits taken/all credits paid back duly,1,434,0.8621
+834,domestic appliances,24,5084,42,0 <= ... < 200 DM,existing credits paid back duly till now,0,523,0.2254
+835,domestic appliances,15,2327,25,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,1,538,0.1457
+836,car (new),12,1082,48,... < 100 DM,no credits taken/all credits paid back duly,1,455,0.7508
+837,domestic appliances,12,886,21,no checking account,existing credits paid back duly till now,0,575,0.0457
+838,radio/television,4,601,23,no checking account,existing credits paid back duly till now,0,530,0.1834
+839,car (used),24,2957,63,... < 100 DM,critical account/other credits existing,0,518,0.2529
+840,domestic appliances,24,2611,46,no checking account,critical account/other credits existing,0,554,0.0905
+841,radio/television,36,5179,29,... < 100 DM,existing credits paid back duly till now,1,458,0.7357
+842,car (used),21,2993,28,no checking account,delay in paying off in the past,0,554,0.0908
+843,education,18,1943,23,no checking account,existing credits paid back duly till now,1,519,0.246
+844,others,24,1559,50,no checking account,all credits at this bank paid back duly,0,508,0.3273
+845,radio/television,18,3422,47,no checking account,existing credits paid back duly till now,0,531,0.1788
+846,radio/television,21,3976,35,0 <= ... < 200 DM,existing credits paid back duly till now,0,535,0.1593
+847,car (new),18,6761,68,no checking account,existing credits paid back duly till now,1,534,0.1628
+848,car (new),24,1249,28,no checking account,existing credits paid back duly till now,0,509,0.3163
+849,domestic appliances,9,1364,59,... < 100 DM,existing credits paid back duly till now,0,532,0.1746
+850,domestic appliances,12,709,57,... < 100 DM,existing credits paid back duly till now,1,508,0.3271
+851,car (new),20,2235,33,... < 100 DM,critical account/other credits existing,1,497,0.412
+852,car (used),24,4042,43,no checking account,critical account/other credits existing,0,601,0.0191
+853,domestic appliances,15,1471,35,no checking account,critical account/other credits existing,0,560,0.0744
+854,car (new),18,1442,32,... < 100 DM,all credits at this bank paid back duly,1,461,0.7097
+855,car (new),36,10875,45,no checking account,delay in paying off in the past,0,509,0.32
+856,car (new),24,1474,33,no checking account,existing credits paid back duly till now,0,515,0.2738
+857,business,10,894,40,no checking account,existing credits paid back duly till now,0,579,0.0397
+858,radio/television,15,3343,28,no checking account,critical account/other credits existing,0,551,0.0995
+859,car (new),15,3959,29,... < 100 DM,existing credits paid back duly till now,1,509,0.3196
+860,car (new),9,3577,26,no checking account,existing credits paid back duly till now,0,542,0.1297
+861,car (used),24,5804,27,no checking account,critical account/other credits existing,0,574,0.0474
+862,others,18,2169,28,no checking account,delay in paying off in the past,1,528,0.1927
+863,domestic appliances,24,2439,35,... < 100 DM,existing credits paid back duly till now,1,490,0.4721
+864,radio/television,27,4526,32,no checking account,critical account/other credits existing,0,552,0.0954
+865,radio/television,10,2210,25,no checking account,existing credits paid back duly till now,1,552,0.0964
+866,radio/television,15,2221,20,no checking account,existing credits paid back duly till now,0,556,0.0851
+867,domestic appliances,18,2389,27,... < 100 DM,existing credits paid back duly till now,0,476,0.5942
+868,radio/television,12,3331,42,no checking account,critical account/other credits existing,0,541,0.1354
+869,others,36,7409,37,no checking account,existing credits paid back duly till now,0,530,0.1852
+870,radio/television,12,652,24,... < 100 DM,existing credits paid back duly till now,0,486,0.5131
+871,radio/television,36,7678,40,no checking account,delay in paying off in the past,0,529,0.1876
+872,car (new),6,1343,46,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,550,0.1011
+873,others,24,1382,26,... < 100 DM,critical account/other credits existing,0,506,0.3391
+874,repairs,15,874,24,no checking account,existing credits paid back duly till now,0,551,0.0997
+875,radio/television,12,3590,29,... < 100 DM,existing credits paid back duly till now,0,481,0.5502
+876,car (new),11,1322,40,0 <= ... < 200 DM,critical account/other credits existing,0,551,0.0988
+877,domestic appliances,18,1940,36,... < 100 DM,all credits at this bank paid back duly,0,427,0.8903
+878,domestic appliances,36,3595,28,no checking account,existing credits paid back duly till now,0,525,0.2113
+879,car (new),9,1422,27,... < 100 DM,existing credits paid back duly till now,1,471,0.64
+880,domestic appliances,30,6742,36,no checking account,critical account/other credits existing,0,577,0.0427
+881,car (used),24,7814,38,no checking account,existing credits paid back duly till now,0,549,0.1039
+882,car (used),24,9277,48,no checking account,existing credits paid back duly till now,0,565,0.0628
+883,car (new),30,2181,36,0 <= ... < 200 DM,critical account/other credits existing,0,524,0.2154
+884,domestic appliances,18,1098,65,no checking account,critical account/other credits existing,0,542,0.129
+885,radio/television,24,4057,43,0 <= ... < 200 DM,existing credits paid back duly till now,1,509,0.3221
+886,retraining,12,795,53,... < 100 DM,existing credits paid back duly till now,1,480,0.5598
+887,others,24,2825,34,0 <= ... < 200 DM,critical account/other credits existing,0,530,0.182
+888,others,48,15672,23,0 <= ... < 200 DM,existing credits paid back duly till now,1,476,0.598
+889,car (new),36,6614,34,no checking account,critical account/other credits existing,0,525,0.2101
+890,car (used),28,7824,40,no checking account,all credits at this bank paid back duly,0,548,0.1083
+891,others,27,2442,43,... < 100 DM,critical account/other credits existing,0,491,0.4678
+892,domestic appliances,15,1829,46,no checking account,critical account/other credits existing,0,584,0.0338
+893,car (new),12,2171,38,... < 100 DM,critical account/other credits existing,0,500,0.3899
+894,car (used),36,5800,34,0 <= ... < 200 DM,critical account/other credits existing,0,507,0.3356
+895,domestic appliances,18,1169,29,no checking account,critical account/other credits existing,0,578,0.0406
+896,car (used),36,8947,31,no checking account,delay in paying off in the past,0,545,0.1176
+897,domestic appliances,21,2606,28,... < 100 DM,existing credits paid back duly till now,0,491,0.4707
+898,radio/television,12,1592,35,no checking account,critical account/other credits existing,0,593,0.0248
+899,radio/television,15,2186,33,no checking account,existing credits paid back duly till now,0,555,0.0874
+900,radio/television,18,4153,42,... < 100 DM,existing credits paid back duly till now,1,495,0.4324
+901,car (new),16,2625,43,... < 100 DM,critical account/other credits existing,1,523,0.2225
+902,car (new),20,3485,44,no checking account,critical account/other credits existing,0,562,0.07
+903,car (used),36,10477,42,no checking account,critical account/other credits existing,0,559,0.0768
+904,domestic appliances,15,1386,40,no checking account,existing credits paid back duly till now,0,563,0.0671
+905,domestic appliances,24,1278,36,no checking account,existing credits paid back duly till now,0,545,0.1178
+906,domestic appliances,12,1107,20,... < 100 DM,existing credits paid back duly till now,0,513,0.2929
+907,car (new),21,3763,24,... < 100 DM,existing credits paid back duly till now,0,504,0.3554
+908,retraining,36,3711,27,0 <= ... < 200 DM,existing credits paid back duly till now,0,488,0.492
+909,car (used),15,3594,46,no checking account,delay in paying off in the past,0,568,0.0574
+910,car (new),9,3195,33,0 <= ... < 200 DM,existing credits paid back duly till now,0,534,0.1646
+911,domestic appliances,36,4454,34,no checking account,delay in paying off in the past,0,525,0.2138
+912,radio/television,24,4736,25,0 <= ... < 200 DM,critical account/other credits existing,1,504,0.3601
+913,domestic appliances,30,2991,25,0 <= ... < 200 DM,existing credits paid back duly till now,0,543,0.126
+914,others,11,2142,28,no checking account,existing credits paid back duly till now,0,571,0.0511
+915,others,24,3161,31,... < 100 DM,all credits at this bank paid back duly,1,454,0.7609
+916,furniture/equipment,48,18424,32,0 <= ... < 200 DM,no credits taken/all credits paid back duly,1,432,0.8711
+917,car (used),10,2848,32,no checking account,existing credits paid back duly till now,0,578,0.0416
+918,car (new),6,14896,68,... < 100 DM,existing credits paid back duly till now,1,484,0.5258
+919,radio/television,24,2359,33,... < 100 DM,existing credits paid back duly till now,1,488,0.493
+920,radio/television,24,3345,39,... < 100 DM,existing credits paid back duly till now,1,485,0.5149
+921,radio/television,18,1817,28,no checking account,critical account/other credits existing,0,530,0.1855
+922,domestic appliances,48,12749,37,no checking account,delay in paying off in the past,0,540,0.1373
+923,domestic appliances,9,1366,22,... < 100 DM,existing credits paid back duly till now,1,491,0.4632
+924,car (new),12,2002,30,0 <= ... < 200 DM,existing credits paid back duly till now,0,508,0.3293
+925,radio/television,24,6872,55,... < 100 DM,all credits at this bank paid back duly,1,442,0.8253
+926,car (new),12,697,46,... < 100 DM,all credits at this bank paid back duly,1,444,0.8152
+927,radio/television,18,1049,21,... < 100 DM,critical account/other credits existing,0,480,0.5624
+928,car (used),48,10297,39,... < 100 DM,existing credits paid back duly till now,1,463,0.694
+929,domestic appliances,30,1867,58,no checking account,existing credits paid back duly till now,0,563,0.0667
+930,car (new),12,1344,43,... < 100 DM,delay in paying off in the past,0,491,0.4675
+931,radio/television,24,1747,24,... < 100 DM,existing credits paid back duly till now,0,475,0.6033
+932,domestic appliances,9,1670,22,0 <= ... < 200 DM,existing credits paid back duly till now,1,509,0.3212
+933,car (new),9,1224,30,no checking account,critical account/other credits existing,0,565,0.0637
+934,domestic appliances,12,522,42,no checking account,critical account/other credits existing,0,590,0.0272
+935,domestic appliances,12,1498,23,... < 100 DM,existing credits paid back duly till now,0,495,0.4281
+936,domestic appliances,30,1919,30,0 <= ... < 200 DM,delay in paying off in the past,1,497,0.4121
+937,domestic appliances,9,745,28,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,1,539,0.141
+938,domestic appliances,6,2063,30,0 <= ... < 200 DM,existing credits paid back duly till now,0,501,0.3799
+939,retraining,60,6288,42,0 <= ... < 200 DM,existing credits paid back duly till now,1,444,0.8162
+940,car (used),24,6842,46,no checking account,critical account/other credits existing,0,581,0.0375
+941,car (new),12,3527,45,no checking account,existing credits paid back duly till now,0,558,0.0788
+942,car (new),10,1546,31,no checking account,existing credits paid back duly till now,0,536,0.1556
+943,radio/television,24,929,31,no checking account,existing credits paid back duly till now,0,547,0.1109
+944,car (new),4,1455,42,no checking account,critical account/other credits existing,0,556,0.0846
+945,radio/television,15,1845,46,... < 100 DM,existing credits paid back duly till now,0,514,0.2856
+946,car (new),48,8358,30,0 <= ... < 200 DM,no credits taken/all credits paid back duly,0,451,0.7791
+947,radio/television,24,3349,30,... < 100 DM,all credits at this bank paid back duly,1,465,0.6798
+948,car (new),12,2859,38,no checking account,existing credits paid back duly till now,0,552,0.094
+949,radio/television,18,1533,43,no checking account,existing credits paid back duly till now,1,517,0.2649
+950,domestic appliances,24,3621,31,no checking account,existing credits paid back duly till now,1,558,0.0781
+951,others,18,3590,40,0 <= ... < 200 DM,critical account/other credits existing,0,501,0.3813
+952,others,36,2145,24,... < 100 DM,delay in paying off in the past,1,487,0.4971
+953,car (used),24,4113,28,0 <= ... < 200 DM,existing credits paid back duly till now,1,537,0.151
+954,radio/television,36,10974,26,no checking account,existing credits paid back duly till now,1,506,0.3427
+955,car (new),12,1893,29,... < 100 DM,existing credits paid back duly till now,0,495,0.4324
+956,domestic appliances,24,1231,57,... < 100 DM,critical account/other credits existing,0,540,0.1384
+957,domestic appliances,30,3656,49,... >= 200 DM / salary for at least 1 year,critical account/other credits existing,0,554,0.0911
+958,domestic appliances,9,1154,37,0 <= ... < 200 DM,critical account/other credits existing,0,541,0.1324
+959,car (new),28,4006,45,... < 100 DM,existing credits paid back duly till now,1,489,0.4833
+960,radio/television,24,3069,30,0 <= ... < 200 DM,existing credits paid back duly till now,0,485,0.5152
+961,domestic appliances,6,1740,30,no checking account,critical account/other credits existing,0,594,0.0241
+962,car (new),21,2353,47,0 <= ... < 200 DM,delay in paying off in the past,0,496,0.42
+963,car (new),15,3556,29,no checking account,existing credits paid back duly till now,0,545,0.1185
+964,domestic appliances,24,2397,35,no checking account,existing credits paid back duly till now,1,573,0.0484
+965,education,6,454,22,0 <= ... < 200 DM,existing credits paid back duly till now,0,491,0.4702
+966,domestic appliances,30,1715,26,0 <= ... < 200 DM,existing credits paid back duly till now,0,519,0.2513
+967,domestic appliances,27,2520,23,0 <= ... < 200 DM,critical account/other credits existing,1,535,0.1579
+968,domestic appliances,15,3568,54,no checking account,existing credits paid back duly till now,0,549,0.104
+969,domestic appliances,42,7166,29,no checking account,existing credits paid back duly till now,0,555,0.0872
+970,car (new),11,3939,40,... < 100 DM,critical account/other credits existing,0,524,0.2169
+971,education,15,1514,22,0 <= ... < 200 DM,existing credits paid back duly till now,0,492,0.4539
+972,car (new),24,7393,43,no checking account,existing credits paid back duly till now,0,511,0.3021
+973,car (new),24,1193,29,... < 100 DM,all credits at this bank paid back duly,1,432,0.8704
+974,others,60,7297,36,... < 100 DM,existing credits paid back duly till now,1,441,0.8333
+975,domestic appliances,30,2831,33,no checking account,critical account/other credits existing,0,563,0.0666
+976,domestic appliances,24,1258,57,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,540,0.1382
+977,domestic appliances,6,753,64,0 <= ... < 200 DM,existing credits paid back duly till now,0,527,0.2002
+978,others,18,2427,42,0 <= ... < 200 DM,delay in paying off in the past,0,516,0.272
+979,car (new),24,2538,47,no checking account,delay in paying off in the past,1,538,0.1484
+980,car (new),15,1264,25,0 <= ... < 200 DM,all credits at this bank paid back duly,1,483,0.5353
+981,radio/television,30,8386,49,0 <= ... < 200 DM,critical account/other credits existing,1,512,0.2981
+982,others,48,4844,33,no checking account,existing credits paid back duly till now,1,492,0.4621
+983,car (new),21,2923,28,... >= 200 DM / salary for at least 1 year,existing credits paid back duly till now,0,507,0.3344
+984,car (used),36,8229,26,... < 100 DM,existing credits paid back duly till now,1,493,0.446
+985,radio/television,24,2028,30,no checking account,critical account/other credits existing,0,561,0.071
+986,radio/television,15,1433,25,... < 100 DM,critical account/other credits existing,0,504,0.3548
+987,others,42,6289,33,... >= 200 DM / salary for at least 1 year,no credits taken/all credits paid back duly,0,457,0.7429
+988,domestic appliances,13,1409,64,no checking account,existing credits paid back duly till now,0,563,0.0673
+989,car (used),24,6579,29,... < 100 DM,existing credits paid back duly till now,0,464,0.6881
+990,domestic appliances,24,1743,48,0 <= ... < 200 DM,critical account/other credits existing,0,522,0.2269
+991,retraining,12,3565,37,no checking account,critical account/other credits existing,0,553,0.0922
+992,domestic appliances,15,1569,34,no checking account,all credits at this bank paid back duly,0,538,0.1448
+993,domestic appliances,18,1936,23,... < 100 DM,existing credits paid back duly till now,0,524,0.2175
+994,radio/television,36,3959,30,... < 100 DM,existing credits paid back duly till now,0,458,0.7323
+995,car (new),12,2390,50,no checking account,existing credits paid back duly till now,0,555,0.0874
+996,radio/television,12,1736,31,no checking account,existing credits paid back duly till now,0,559,0.0775
+997,car (used),30,3857,40,... < 100 DM,existing credits paid back duly till now,0,500,0.3872
+998,domestic appliances,12,804,38,no checking account,existing credits paid back duly till now,0,551,0.0974
+999,domestic appliances,45,1845,23,... < 100 DM,existing credits paid back duly till now,1,474,0.6139
+1000,car (used),45,4576,27,0 <= ... < 200 DM,critical account/other credits existing,0,526,0.2056

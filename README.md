@@ -16,6 +16,9 @@ Which credit applications should a lender approve? This project builds an **appl
 | Profit-maximizing cutoff (LGD 45%, margin 4%) | cutoff 540: approve 32.5%, bad rate 7.7%, loss rate 3.6% |
 | Business case sensitivity | with a 6–8% margin the best cutoff moves to 520–530 (approve 43–49%) |
 | Score stability (PSI) | 0.018 (stable) |
+| **Operations: three-band strategy** | auto-approve 540+ (32.5%, 7.7% bad), refer 520–539 to manual review (16.9%, 20.7% bad), auto-decline (50.6%, 47.4% bad) |
+| Operational effectiveness | **83% auto-decisioned**; about 80 manual reviews a day (3.8 adjudicators at 10,000 applications/month); a wider 500–539 band would need 8.1 |
+| **Marketing targeting** | 4 segments to target (e.g. used cars 13–24 months: 57% approval, 10% bad), 7 to avoid |
 
 ![Cutoff strategy](output/cutoff_strategy.png)
 
@@ -29,15 +32,18 @@ Which credit applications should a lender approve? This project builds an **appl
 6. **Business case.** The profit-maximizing cutoff, plus a sensitivity table across margins (4–8%) and loss-given-default (35–60%).
 7. **Champion vs challenger.** A rules-only policy (knock-out rules) against the scorecard at the same approval rate, with **swap-set analysis**.
 8. **Application outcomes by segment.** Approval and bad rates by purpose, age band, term and amount, computed with **SQL** (SQLite).
-9. **Risk governance.** Protected attributes excluded, a population stability index (PSI) for monitoring, a fairness check by age band, and a [model card](docs/MODEL_CARD.md) with limitations.
-10. **Reporting.** `output/credit_strategy.xlsx` (13 sheets, with a chart) and `output/credit_strategy_briefing.pptx` (6 slides).
+9. **Operations.** A three-band strategy (auto-approve / refer to manual review / auto-decline), the auto-decision rate, review queue per day and adjudicators needed, and refer-band options so Risk and Operations can agree the band.
+10. **Marketing.** Profit per application by purpose and term, with a target / neutral / avoid recommendation for acquisition campaigns.
+11. **Cloud-based analytics.** The scored applications are exported for **Google BigQuery**, and the strategy is reproduced with SQL in `sql/bigquery/` (see [the BigQuery guide](docs/BIGQUERY.md)). The SQL was checked against the Python results.
+12. **Risk governance.** Protected attributes excluded, a population stability index (PSI) for monitoring, a fairness check by age band, and a [model card](docs/MODEL_CARD.md) with limitations.
+13. **Reporting.** `output/credit_strategy.xlsx` (17 sheets, with a chart) and `output/credit_strategy_briefing.pptx` (8 slides).
 
 ## Run it
 
 ```bash
 pip install -r requirements.txt
 python -m cra          # writes the Excel workbook, PowerPoint, charts and summary into output/
-pytest                 # 14 tests
+pytest                 # 17 tests
 ```
 
 On Windows Command Prompt the same commands work; open `output\credit_strategy.xlsx` in Excel.
@@ -46,10 +52,11 @@ On Windows Command Prompt the same commands work; open `output\credit_strategy.x
 
 - 1,000 historical applications, amounts in Deutsche Mark: good for showing the method, too small and old for a real lender.
 - Loss given default and margin are assumptions, so the cutoff should be set with Finance's real numbers (see the sensitivity table).
+- Review time (20 minutes) and volume (10,000 applications a month) are assumptions for sizing the review queue.
 - Age-band approval rates differ even though age is not an input; the model card flags this for compliance review.
 
 ## Tech
 
-Python · pandas · NumPy · scikit-learn · SQL (SQLite) · Matplotlib · openpyxl (Excel) · python-pptx (PowerPoint) · pytest · GitHub Actions
+Python · pandas · NumPy · scikit-learn · SQL (SQLite, Google BigQuery) · Matplotlib · openpyxl (Excel) · python-pptx (PowerPoint) · pytest · GitHub Actions
 
 Data: German Credit (Hofmann), UCI Machine Learning Repository, CC BY 4.0.

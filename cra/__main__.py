@@ -13,6 +13,9 @@ def main() -> None:
     imgs = report.charts(r, a.out)
     report.excel(r, a.out / "credit_strategy.xlsx")
     report.powerpoint(r, imgs, a.out / "credit_strategy_briefing.pptx")
+    scored = r.df.assign(score=r.oof["score"], pd=r.oof["pd"].round(4))
+    scored[["application_id", "purpose", "duration", "amount", "age", "status", "credit_history", "bad", "score", "pd"]].to_csv(
+        a.out / "scored_applications.csv", index=False)
     md = report.markdown(r)
     (a.out / "summary.md").write_text(md)
     print(md)

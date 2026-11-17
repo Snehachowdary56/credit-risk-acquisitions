@@ -84,6 +84,12 @@ def excel(r: Results, path: Path) -> Path:
     _sheet(wb, "Champion_Challenger", r.champ_vs_chal)
     _sheet(wb, "Business_Case_Sensitivity", r.sensitivity, "Profit-maximizing cutoff under different margin and loss-given-default assumptions")
     _sheet(wb, "Swap_Set", r.swap)
+    _sheet(wb, "Operations_Bands", r.ops_bands,
+           f"Auto-approve >= {r.approve_at}, refer {r.decline_below}-{r.approve_at - 1}, auto-decline < {r.decline_below}")
+    _sheet(wb, "Operations_Workload", pd.DataFrame([r.ops_workload]),
+           "Assumes 10,000 applications a month, 20 minutes per manual review, 21 workdays, 7 review hours a day")
+    _sheet(wb, "Refer_Band_Options", r.ops_options, "Wider refer band = more manual reviews; choose with Operations")
+    _sheet(wb, "Marketing_Targeting", r.targeting, "Segments with 25+ applications; profit per application under the recommended strategy")
     for name, t in r.segments.items():
         _sheet(wb, f"Seg_{name}"[:31], t)
     _sheet(wb, "Model_Performance", r.model_metrics)
@@ -132,6 +138,18 @@ def powerpoint(r: Results, imgs: dict[str, Path], path: Path) -> Path:
         f"Net margin {row.net_margin:.0%}, LGD {row.lgd:.0%}: best cutoff {row.best_cutoff}, approve {row.approval_rate:.0%}, bad rate {row.bad_rate:.1%}"
         for row in sens.iloc[[0, 4, 8]].itertuples()] + [
         "Higher margins justify approving more applicants; the cutoff should be set with Finance's real margin and LGD"])
+    w, ob = r.ops_workload, r.ops_bands.set_index("band")
+    slide("Operations: three-band strategy and review workload", [
+        f"Auto-approve {r.approve_at}+: {ob.loc['Auto-approve','share']:.0%} of applications, bad rate {ob.loc['Auto-approve','bad_rate']:.1%}",
+        f"Refer {r.decline_below}-{r.approve_at - 1} to manual review: {ob.loc['Refer to manual review','share']:.0%}, bad rate {ob.loc['Refer to manual review','bad_rate']:.1%}",
+        f"Auto-decline below {r.decline_below}: {ob.loc['Auto-decline','share']:.0%}, bad rate {ob.loc['Auto-decline','bad_rate']:.1%}",
+        f"Auto-decision rate {w['auto_decision_rate']:.0%}; about {w['reviews_per_day']} reviews a day, {w['adjudicators_needed_fte']} adjudicators (10,000 applications/month)",
+        "A wider refer band doubles the review workload; agree the band with Operations"])
+    tg = r.targeting
+    slide("Marketing: which segments to target", [
+        "Target: " + "; ".join(f"{x.purpose}, {x.term}" for x in tg[tg.recommendation == "Target"].itertuples()),
+        "Avoid: " + "; ".join(f"{x.purpose}, {x.term}" for x in tg[tg.recommendation == "Avoid"].itertuples()),
+        "Ranked by profit per application under the recommended strategy (segments with 25+ applications)"])
     slide("Application outcomes by segment", [
         "Approval and bad rates by purpose, age band, term and amount (SQL)",
         "Used to check the strategy is not concentrated in one segment"], imgs["segments"])
@@ -156,5 +174,9 @@ def markdown(r: Results) -> str:
              "### Champion vs challenger", "", r.champ_vs_chal.to_markdown(index=False), "",
              "### Swap set", "", r.swap.to_markdown(index=False), "",
              "### Business case sensitivity (profit-maximizing cutoff)", "", r.sensitivity.to_markdown(index=False), "",
+             "### Operations: three-band strategy", "", r.ops_bands.to_markdown(index=False), "",
+             "Workload (10,000 applications/month, 20 min per review): " + ", ".join(f"{k} {v}" for k, v in r.ops_workload.items()), "",
+             "### Refer band options", "", r.ops_options.to_markdown(index=False), "",
+             "### Marketing targeting", "", r.targeting.to_markdown(index=False), "",
              "### Outcomes by purpose", "", r.segments["purpose"].to_markdown(index=False), ""]
     return "\n".join(lines)

@@ -6,7 +6,7 @@ from dataclasses import dataclass
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from cra import data, monitoring, scorecard, segments, strategy, validate
+from cra import data, marketing, monitoring, operations, scorecard, segments, strategy, validate
 
 
 @dataclass
@@ -25,6 +25,12 @@ class Results:
     features: list
     matched_cut: int
     sensitivity: pd.DataFrame
+    ops_bands: pd.DataFrame
+    ops_workload: dict
+    ops_options: pd.DataFrame
+    targeting: pd.DataFrame
+    approve_at: int
+    decline_below: int
 
 
 def run(df: pd.DataFrame | None = None) -> Results:
@@ -61,5 +67,11 @@ def run(df: pd.DataFrame | None = None) -> Results:
     rows += [{"variable": f, "psi": round(monitoring.psi(dev[f], recent[f]), 4)} for f in dev_model.features[:6]]
     psi = pd.DataFrame(rows).assign(status=lambda t: t["psi"].map(monitoring.status))
 
+    approve_at = int(recommended["cutoff"])
+    decline_below = approve_at - 20   # narrow refer band: see refer_band_options for the trade-off
+    band = operations.bands(scores, approve_at, decline_below)
+    ops_bands = operations.band_table(df, band)
     return Results(df, oof, iv, final.points_table(), model_metrics, cutoffs, recommended, champ_vs_chal, swap, segs,
-                   psi, final.features, cut, strategy.sensitivity(df, scores))
+                   psi, final.features, cut, strategy.sensitivity(df, scores), ops_bands, operations.workload(ops_bands),
+                   operations.refer_band_options(df, scores, approve_at), marketing.targeting(df, scores >= approve_at),
+                   approve_at, decline_below)

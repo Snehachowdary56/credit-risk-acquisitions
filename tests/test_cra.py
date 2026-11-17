@@ -103,4 +103,25 @@ def test_reports_are_written(results, tmp_path):
     from openpyxl import load_workbook
     assert "Champion_Challenger" in load_workbook(xlsx).sheetnames
     from pptx import Presentation
-    assert len(Presentation(pptx).slides) == 6
+    assert len(Presentation(pptx).slides) == 8
+
+
+def test_three_bands_cover_every_application(results):
+    t = results.ops_bands
+    assert t["applications"].sum() == 1000
+    rates = t.set_index("band")["bad_rate"]
+    assert rates["Auto-approve"] < rates["Refer to manual review"] < rates["Auto-decline"]
+
+
+def test_wider_refer_band_means_more_reviews(results):
+    o = results.ops_options
+    assert o["reviews_per_month"].is_monotonic_increasing
+    assert o.loc[0, "auto_decision_rate"] == 1.0
+
+
+def test_marketing_targets_are_low_risk_and_profitable(results):
+    t = results.targeting
+    target = t[t.recommendation == "Target"]
+    assert len(target) > 0
+    assert (target["bad_rate"] <= results.df["bad"].mean()).all()
+    assert (target["profit_per_application"] > 0).all()
